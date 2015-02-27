@@ -1,4 +1,4 @@
-﻿KanColleViewer! (提督業も忙しい！汉语：提督很忙)
+﻿KanColleViewer! (提督業も忙しい！汉语：提督很忙!)
 --
 
 KCV是一个添加了若干辅助功能的舰娘用浏览器。
@@ -18,8 +18,9 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 
 ## 下载
 所有版本可在下面的链接里下载（含本项目开始前的版本）
+什么？没我的版本？请耐心，我还在测试一些东西。
 
-* [GitHub Releases](https://github.com/yuyuvn/KanColleViewer/releases)
+* [GitHub发行页](https://github.com/AnnaKutou/KanColleViewer/releases)
 
 ## FAQ:
 
@@ -79,17 +80,17 @@ Note! For those not in English UI, you may need to place them in the folders tha
 
 Other than the above, this version is the same with some tweaks to make it fit for an English translation. The plan is to hopefully add some features into the main project for all to enjoy.
 
-## About This Project
+## 关于项目
 KanColleViewer uses the web browser component of the Windows Presentation Foundation (WPF) in combination of [FiddlerCore](http://fiddler2.com/fiddlercore) to capture communication packets in-between the server and the page itself.
 
 Of course, we do not change the contents of the packets in anyway and is used to provide information to the program's components.
 
-### About The Translation
+### 关于翻译
 Main work on the translation of ships, equipment, and quests fall solely on the now defunct [silfumus' version of KanColleViewer](https://github.com/silfumus/KanColleViewer) and those who contributed to it. Zharay manually merged the changes to this version of the fork and went from there.
 
 The way the translation works is that it manually loads the translation from several text files which holds both the Japanese name and the English translation of the item in question. This can theoretically be used to translate the contents of the game easily to any language needed.
 
-### Main Functions
+### 主要特点
 * Real-time display of elements such as instant repair and build materials.
 * Real-time display of the number of Ship Girls and equipment held at the HQ
 * List of all ship girls currently in your fleets
@@ -98,7 +99,7 @@ The way the translation works is that it manually loads the translation from sev
 * Screenshot saving
 * Sound muting
 
-### Requirements
+### 环境要求
 * Windows 8 or later
 * Windows 7 (limited functionality)
 * [.NET Framework 4.5](http://www.microsoft.com/ja-jp/download/details.aspx?id=30653)
@@ -107,7 +108,7 @@ Developed and tested mainly in Windows 8.1 Pro. Windows 7 can also be used to ru
 
 Windows 7 requires that you install .NET Framework 4.5. Windows 8 already has this installed by default.
 
-### Development Environment, Language, Libraries
+### 开发环境、语言、库。
 This was mainly developed using C# + WPF in Windows 8.1 Pro and Visual Studio Premium 2013.
 
 * [Reactive Extensions](http://rx.codeplex.com/)
@@ -118,7 +119,7 @@ This was mainly developed using C# + WPF in Windows 8.1 Pro and Visual Studio Pr
 * [FiddlerCore](http://fiddler2.com/fiddlercore) (Network capture)
 
 
-#### License
+#### 许可协议
 * MIT License
 
-To be released under the MIT license as an open source / free software.
+遵循MIT license作为开源、免费软件发行。
