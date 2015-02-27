@@ -15,7 +15,7 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 * [m-kc](https://github.com/m-kc) -- Rankings section
 * [taihou](https://github.com/taihou) -- Logging option
 * [FreyYa](https://github.com/FreyYa) -- Custom Sound
-* [杏奈](https://github.com/AnnaKutou)Mr.WinWin -- 中文本土化
+* [杏奈](https://github.com/AnnaKutou)、Mr.WinWin -- 中文本土化
 
 ## 下载
 所有版本可在下面的链接里下载（含本项目开始前的版本）
