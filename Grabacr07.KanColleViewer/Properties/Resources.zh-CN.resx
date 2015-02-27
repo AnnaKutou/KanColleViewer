@@ -1068,4 +1068,13 @@ GPU: 慢! 适用于平板设备.</value>
   <data name="Settings_Updates_ForceUpdateTransBtn_ToolTip" xml:space="preserve">
     <value>只更新翻译文件不检测版本号</value>
   </data>
+  <data name="StartContent_Introduction2" xml:space="preserve">
+    <value>舰Colle是在内置的IE上运行的。DMM的服务器是很叼的，花式发包啦，Flash抽出啦，内存欺骗之类的是行不通的哦。</value>
+  </data>
+  <data name="StartContent_Introduction3" xml:space="preserve">
+    <value>游戏不正常显示或者脚本错误频发的话，请把IE的缓存清理一下。如果问题依旧，请确认自己的IE能不能放Flash。</value>
+  </data>
+  <data name="StartContent_Introduction4" xml:space="preserve">
+    <value>本工具不定期更新，请酌情检查更新。</value>
+  </data>
 </root>
