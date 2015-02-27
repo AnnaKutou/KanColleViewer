@@ -1,10 +1,11 @@
-﻿KanColleViewer! (提督業も忙しい！)
+﻿KanColleViewer! (提督業も忙しい！汉语：提督很忙)
 --
 
-KCV is a browser utility that makes it easy to play Kantai Collection.
-This is the translation project of the original [KanColleViewer](http://grabacr.net/kancolleviewer)
+KCV是一个添加了若干辅助功能的舰娘用浏览器。
+源项目：[KanColleViewer](http://grabacr.net/kancolleviewer)
+本项目基于yuyuvn的KCV版本进行本地化。[yuyuvn's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
 
-##### Main Contributors
+##### 主要贡献者
 * [Clicia](https://github.com/yuyuvn) -- Maintainer
 * [@Zharay](http://twitter.com/Zharay) -- English Version
 * [@Grabacr07](https://twitter.com/Grabacr07) -- Original author
@@ -13,13 +14,14 @@ This is the translation project of the original [KanColleViewer](http://grabacr.
 * [m-kc](https://github.com/m-kc) -- Rankings section
 * [taihou](https://github.com/taihou) -- Logging option
 * [FreyYa](https://github.com/FreyYa) -- Custom Sound
+* [杏奈](https://github.com/AnnaKutou) -- 中文本土化
 
-## Downloads
-All builds can be found in the following links below.
+## 下载
+所有版本可在下面的链接里下载（含本项目开始前的版本）
 
-* [GitHub Releases](https://github.com/yuyuvn/KanColleViewer/releases) -- Major revision binaries
+* [GitHub Releases](https://github.com/yuyuvn/KanColleViewer/releases)
 
-## Frequently Asked Questions
+## FAQ:
 
 #### Is KCV safe?
 Yes. You are mainly playing off Internet Explorer (IE). The program itself wraps itself around IE and captures all network coming in and out. It only looks for incoming data and uses that for displaying in game information such as ships, expeditions, quests, and so on. **This does not change the game itself in any way**. **It does not change the packets in any way**. For other solutions to say that their version is "safer" while they are asking you to use an API link are just as much a problem as it is with this program.
