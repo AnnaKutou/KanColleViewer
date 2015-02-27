@@ -430,10 +430,10 @@
     <value>浏览器缓存已清除</value>
   </data>
   <data name="StartContent_Introduction1" xml:space="preserve">
-    <value>「提督業も忙しい！」は、艦これを遊びやすくするためのツールです。</value>
+    <value>「提督業も忙しい！」是一个让你上舰更愉♂悦的工具。</value>
   </data>
   <data name="StartContent_Welcom" xml:space="preserve">
-    <value>ようこそ</value>
+    <value>Hey！提督！</value>
   </data>
   <data name="StatusBar_AirSuperiorityPotential" xml:space="preserve">
     <value>对空战斗力:</value>
@@ -490,7 +490,7 @@
     <value>请确保 DMM.com 当前语言为日语</value>
   </data>
   <data name="StatusBar_TotalAverageLevel" xml:space="preserve">
-    <value>Total Level (Average):</value>
+    <value>总等级 (平均):</value>
   </data>
   <data name="Stats_Accuracy" xml:space="preserve">
     <value>命中</value>
