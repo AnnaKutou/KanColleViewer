@@ -674,13 +674,13 @@
     <value>更新</value>
   </data>
   <data name="Updater_Notification_TransUpdate_Fail" xml:space="preserve">
-    <value>KCV 无法下载最新翻译文件.</value>
+    <value>KCV 无法下载最新翻译文件</value>
   </data>
   <data name="Updater_Notification_TransUpdate_Same" xml:space="preserve">
-    <value>翻译文件已是最新.</value>
+    <value>翻译文件已是最新</value>
   </data>
   <data name="Updater_Notification_TransUpdate_Success" xml:space="preserve">
-    <value>翻译文件已经更新.</value>
+    <value>翻译文件已经更新</value>
   </data>
   <data name="Fleets_AirSuperiorityPotential" xml:space="preserve">
     <value>制空战力</value>
@@ -1076,5 +1076,23 @@ GPU: 慢! 适用于平板设备.</value>
   </data>
   <data name="StartContent_Introduction4" xml:space="preserve">
     <value>本工具不定期更新，请酌情检查更新。</value>
+  </data>
+  <data name="Browser_GoBack" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="Browser_GoForward" xml:space="preserve">
+    <value>前进</value>
+  </data>
+  <data name="Browser_ReNavigate" xml:space="preserve">
+    <value>页面重新载入</value>
+  </data>
+  <data name="Browser_URLTip" xml:space="preserve">
+    <value>输入地址后Enter键跳转</value>
+  </data>
+  <data name="Settings_Operation_LoS_Simple" xml:space="preserve">
+    <value>简单相加船和装备的索敌值</value>
+  </data>
+  <data name="Settings_Operation_LoS_Title" xml:space="preserve">
+    <value>舰队的索敌值使用以下公式计算</value>
   </data>
 </root>
