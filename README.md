@@ -18,10 +18,9 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 * [杏奈](https://github.com/AnnaKutou)、Mr.WinWin -- 中文本土化
 
 ## 下载
-所有版本可在下面的链接里下载（含本项目开始前的版本）
-什么？没我的版本？请耐心，我还在测试一些东西。
+可在下面的链接里下载
 
-* [GitHub发行页](https://github.com/AnnaKutou/KanColleViewer/releases)
+* [度盘](http://pan.baidu.com/s/1qWC1RL6)
 
 ## FAQ:
 
