@@ -37,7 +37,7 @@
 					   FontSize="44"
 					   Foreground="{DynamicResource ActiveForegroundBrushKey}"
 					   Margin="-3,-14,0,0" />
-			<TextBlock Text="tool of the admiral, by the admiral, for the admiral"
+			<TextBlock Text="全心全意为提督服务！"
 					   FontFamily="Segoe UI Light"
 					   FontSize="16"
 					   Margin="0,-9,0,0" />
@@ -61,42 +61,42 @@
 		<StackPanel Grid.Row="1"
 					Grid.Column="0">
 			<TextBlock FontFamily="Segoe UI">
-				<Run Text="Project home:" />
+				<Run Text="源项目主页:" />
 				<metro2:HyperlinkEx Uri="http://grabacr.net/kancolleviewer">
 					<Run Text="http://grabacr.net/kancolleviewer" />
 				</metro2:HyperlinkEx>
 
 				<LineBreak />
 
-				<Run Text="Source code:" />
-				<metro2:HyperlinkEx Uri="https://github.com/yuyuvn/KanColleViewer">
-					<Run Text="https://github.com/yuyuvn/KanColleViewer" />
+				<Run Text="源代码:" />
+				<metro2:HyperlinkEx Uri="https://github.com/AnnaKutou/KanColleViewer">
+					<Run Text="https://github.com/Annakutou/KanColleViewer" />
 				</metro2:HyperlinkEx>
 
 				<LineBreak />
 
-				<Run Text="Author / Developer:" />
+				<Run Text="作者 / 开发者:" />
 				<metro2:HyperlinkEx Uri="https://twitter.com/Grabacr07">
 					<Run Text="@Grabacr07" />
 				</metro2:HyperlinkEx>
 
 				<LineBreak />
 
-				<Run Text="Icon design:" />
+				<Run Text="图标设计:" />
 				<metro2:HyperlinkEx Uri="https://twitter.com/Nrtwd/">
 					<Run Text="@Nrtwd" />
 				</metro2:HyperlinkEx>
 
 				<LineBreak />
 						
-				<Run Text="Horizontal version and translation:" />
+				<Run Text="横屏版本和翻译系统:" />
 				<metro2:HyperlinkEx Uri="https://twitter.com/Zharay">
 					<Run Text="@Zharay" />
 				</metro2:HyperlinkEx>
 
 				<LineBreak />
 
-				<Run Text="Localisation:" />
+				<Run Text="本土化:" />
 				<metro2:HyperlinkEx Uri="https://twitter.com/southrop113">
 					<Run Text="@southrop113" />
 				</metro2:HyperlinkEx>
@@ -107,7 +107,11 @@
 				<metro2:HyperlinkEx Uri="https://twitter.com/halcy">
 					<Run Text="@halcy" />
 				</metro2:HyperlinkEx>
-				<Run Text="(German)" FontSize="8" />
+				<Run Text="(German)" FontSize="8" /><Run Text=", " />
+                <metro2:HyperlinkEx Uri="https://twitter.com/IL_Braccialetto">
+					<Run Text="@杏奈" />
+				</metro2:HyperlinkEx><Run Text="Mr.WinWin" />
+                <Run Text="(中文)" FontSize="8" />
 
 			</TextBlock>
 
@@ -146,12 +150,12 @@
 			<Run Text="{Binding Source={x:Static root:App.ProductInfo}, Path=Copyright, Mode=OneWay}" />
 			<LineBreak />
 			<Run Text="{Binding Source={x:Static root:App.ProductInfo}, Path=Product, Mode=OneWay}" />
-			<Run Text="is" />
+			<Run Text="作为" />
 			<Run Text="OSS"
-				 ToolTip="Open Source Software" />
-			<Run Text="released under" />
+				 ToolTip="开源软件" />
+			<Run Text="发行，遵守" />
 			<metro2:HyperlinkEx Uri="https://github.com/Grabacr07/KanColleViewer/blob/master/LICENSE.txt">
-				<Run Text="The MIT License." />
+				<Run Text="MIT License." />
 			</metro2:HyperlinkEx>
 		</TextBlock>
 

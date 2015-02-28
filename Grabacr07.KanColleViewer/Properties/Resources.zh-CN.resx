@@ -247,7 +247,7 @@
     <value>舰娘仍在疲劳期</value>
   </data>
   <data name="MessageBar_ReSortie_CanNotReSortie" xml:space="preserve">
-    <value>艦隊に{0}がいます。</value>
+    <value>艦隊に{0}不能出击。</value>
   </data>
   <data name="MessageBar_ReSortie_CanReSortie" xml:space="preserve">
     <value>可以出击！</value>
@@ -430,7 +430,7 @@
     <value>浏览器缓存已清除</value>
   </data>
   <data name="StartContent_Introduction1" xml:space="preserve">
-    <value>「提督業も忙しい！」是一个让你上舰更愉♂悦的工具。</value>
+    <value>「提督很忙!」是一个让你上舰更愉♂悦的工具。</value>
   </data>
   <data name="StartContent_Welcom" xml:space="preserve">
     <value>Hey！提督！</value>
@@ -1069,7 +1069,7 @@ GPU: 慢! 适用于平板设备.</value>
     <value>只更新翻译文件不检测版本号</value>
   </data>
   <data name="StartContent_Introduction2" xml:space="preserve">
-    <value>舰Colle是在内置的IE上运行的。DMM的服务器是很叼的，花式发包啦，Flash抽出啦，内存欺骗之类的是行不通的哦。</value>
+    <value>舰Colle是在内置的IE上运行的。DMM的服务器是很厉害的，花式发包啦，Flash抽出啦，内存欺骗之类的是行不通的哦。你们如果骗她的话小心被反艹（Ban）哦~</value>
   </data>
   <data name="StartContent_Introduction3" xml:space="preserve">
     <value>游戏不正常显示或者脚本错误频发的话，请把IE的缓存清理一下。如果问题依旧，请确认自己的IE能不能放Flash。</value>
@@ -1084,7 +1084,7 @@ GPU: 慢! 适用于平板设备.</value>
     <value>前进</value>
   </data>
   <data name="Browser_ReNavigate" xml:space="preserve">
-    <value>页面重新载入</value>
+    <value>刷新</value>
   </data>
   <data name="Browser_URLTip" xml:space="preserve">
     <value>输入地址后Enter键跳转</value>

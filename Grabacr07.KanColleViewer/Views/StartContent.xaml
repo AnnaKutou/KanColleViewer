@@ -197,14 +197,14 @@
 
                                 <TextBlock FontFamily="Segoe UI"
 									   Margin="0,0,0,8">
-								<Run Text="Author / Developer:" />
+								<Run Text="作者 / 开发者:" />
 								<metro2:HyperlinkEx Uri="https://twitter.com/Grabacr07">
 									<Run Text="@Grabacr07" />
 								</metro2:HyperlinkEx>
                                 </TextBlock>
 
                                 <TextBlock FontFamily="Segoe UI">
-								<Run Text="Horizontal / Translation:" />
+								<Run Text="横屏 / 翻译(En):" />
 								<metro2:HyperlinkEx Uri="https://twitter.com/Zharay">
 									<Run Text="@Zharay" />
 								</metro2:HyperlinkEx>
@@ -212,14 +212,14 @@
 
                                 <TextBlock FontFamily="Segoe UI"
 									   Margin="0,6,0,0">
-								<Run Text="Icon design:" />
+								<Run Text="图标设计:" />
 								<metro2:HyperlinkEx Uri="https://twitter.com/Nrtwd/">
 									<Run Text="@Nrtwd" />
 								</metro2:HyperlinkEx>
                                 </TextBlock>
 
                                 <TextBlock FontFamily="Segoe UI">
-								<Run Text="Localization" />
+								<Run Text="本土化" />
 								<Run Text="(English)"
 									 FontSize="10" />
 								<Run Text=":" />
@@ -227,7 +227,16 @@
 									<Run Text="@southrop113" />
 								</metro2:HyperlinkEx>
                                 </TextBlock>
-
+                                
+                                <TextBlock FontFamily="Segoe UI">
+								<Run Text="本土化" />
+								<Run Text="(中文)"
+									 FontSize="10" />
+								<Run Text=":@Mr.WinWin" />
+								<metro2:HyperlinkEx Uri="https://twitter.com/IL_Braccialetto">
+									<Run Text="@杏奈" />
+								</metro2:HyperlinkEx>
+                                </TextBlock>
                                 <Rectangle Height="1"
 									   Margin="0,12"
 									   Style="{DynamicResource SeparatorRectangleStyleKey}" />
@@ -321,12 +330,12 @@
                                             <Run Text="{Binding Resources.StartContent_Introduction4, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
                                             <LineBreak />
                                             <LineBreak />
-                                            <Run Text="Project home:" />
+                                            <Run Text="项目主页:" />
                                             <metro2:HyperlinkEx Uri="http://grabacr.net/kancolleviewer">
                                                 <Run Text="grabacr.net" />
                                             </metro2:HyperlinkEx>
                                             <LineBreak />
-                                            <Run Text="English Project (continued):" />
+                                            <Run Text="英文项目(continued):" />
                                             <metro2:HyperlinkEx Uri="https://github.com/yuyuvn/KanColleViewer">
                                                 <Run Text="Clicia's fork" />
                                             </metro2:HyperlinkEx>
