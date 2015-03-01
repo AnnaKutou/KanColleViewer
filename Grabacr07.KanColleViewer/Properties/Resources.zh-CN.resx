@@ -532,34 +532,34 @@
     <value>雷装</value>
   </data>
   <data name="Rank_Admiral" xml:space="preserve">
-    <value>海军上将</value>
+    <value>大将</value>
   </data>
   <data name="Rank_Captain" xml:space="preserve">
-    <value>海军上校</value>
+    <value>大佐</value>
   </data>
   <data name="Rank_Commander" xml:space="preserve">
-    <value>海军中校</value>
+    <value>中佐</value>
   </data>
   <data name="Rank_Lieutenant" xml:space="preserve">
-    <value>海军上尉</value>
+    <value>中坚少佐</value>
   </data>
   <data name="Rank_Lieutenant_Commander" xml:space="preserve">
-    <value>海军少校</value>
+    <value>少佐</value>
   </data>
   <data name="Rank_Marshal_Admiral" xml:space="preserve">
-    <value>海军一级上将</value>
+    <value>元帅</value>
   </data>
   <data name="Rank_Novice_Commander" xml:space="preserve">
-    <value>海军新手中校</value>
+    <value>新米中佐</value>
   </data>
   <data name="Rank_Novice_Lieutenant" xml:space="preserve">
-    <value>海军新手上尉</value>
+    <value>新米少佐</value>
   </data>
   <data name="Rank_Rear_Admiral" xml:space="preserve">
-    <value>海军少将</value>
+    <value>少将</value>
   </data>
   <data name="Rank_Vice_Admiral" xml:space="preserve">
-    <value>海军中将</value>
+    <value>中将</value>
   </data>
   <data name="Tools" xml:space="preserve">
     <value>工具</value>
