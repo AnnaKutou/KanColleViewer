@@ -145,7 +145,7 @@
     <value>测试</value>
   </data>
   <data name="Dockyard" xml:space="preserve">
-    <value>建造</value>
+    <value>建造坞</value>
   </data>
   <data name="Dockyard_Complete" xml:space="preserve">
     <value>完成！</value>
@@ -295,7 +295,7 @@
     <value>完成</value>
   </data>
   <data name="Quest_Title_Untaken" xml:space="preserve">
-    <value>(未接受的任务)</value>
+    <value>(未取得任务信息)</value>
   </data>
   <data name="Repairyard" xml:space="preserve">
     <value>入渠</value>
@@ -481,10 +481,10 @@
     <value>翻译</value>
   </data>
   <data name="Settings_Translations_Add_Enable" xml:space="preserve">
-    <value>追加未翻译文本到语言文件中?</value>
+    <value>追加未翻译文本到语言文件中。</value>
   </data>
   <data name="Settings_Translations_Enable" xml:space="preserve">
-    <value>翻译游戏中的物品, 船只, 任务成选中的语言?</value>
+    <value>翻译KCV界面中的物品, 船只, 任务成选中的语言。</value>
   </data>
   <data name="StartContent_SetRegionCookieToolTip" xml:space="preserve">
     <value>请确保 DMM.com 当前语言为日语</value>
@@ -814,10 +814,10 @@ GPU: 慢! 适用于平板设备.</value>
     <value>数据</value>
   </data>
   <data name="Overview_EquipmentList" xml:space="preserve">
-    <value>装备</value>
+    <value>装备一览</value>
   </data>
   <data name="Overview_ShipList" xml:space="preserve">
-    <value>舰娘</value>
+    <value>舰娘一览</value>
   </data>
   <data name="Shipyard" xml:space="preserve">
     <value>工厂</value>
@@ -991,13 +991,13 @@ GPU: 慢! 适用于平板设备.</value>
     <value>幸运</value>
   </data>
   <data name="ShipCatalog_Modernization" xml:space="preserve">
-    <value>现代化修改</value>
+    <value>现代化改修</value>
   </data>
   <data name="ShipCatalog_ModernizationComplete" xml:space="preserve">
-    <value>修改完成</value>
+    <value>改修完成</value>
   </data>
   <data name="ShipCatalog_ModernizationIncomplete" xml:space="preserve">
-    <value>修改中</value>
+    <value>改修中</value>
   </data>
   <data name="ShipCatalog_Name" xml:space="preserve">
     <value>舰名</value>
@@ -1094,5 +1094,11 @@ GPU: 慢! 适用于平板设备.</value>
   </data>
   <data name="Settings_Operation_LoS_Title" xml:space="preserve">
     <value>舰队的索敌值使用以下公式计算</value>
+  </data>
+  <data name="Overview_ConstructionDock" xml:space="preserve">
+    <value>建造坞</value>
+  </data>
+  <data name="Overview_RepairDock" xml:space="preserve">
+    <value>修理坞</value>
   </data>
 </root>

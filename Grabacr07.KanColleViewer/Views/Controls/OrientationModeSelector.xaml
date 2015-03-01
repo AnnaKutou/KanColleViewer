@@ -121,7 +121,7 @@
 							BorderBrush="{DynamicResource AccentBrushKey}"
 							BorderThickness="1">
 						<StackPanel Margin="8">
-							<TextBlock Text="屏幕显示模式" />
+							<TextBlock Text="显示方向" />
 							<Rectangle Height="1"
 									   Fill="{DynamicResource InactiveForegroundBrushKey}"
 									   Margin="0,8" />
