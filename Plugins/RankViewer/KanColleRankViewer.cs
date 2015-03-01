@@ -21,7 +21,7 @@ namespace Grabacr07.KanColleViewer.Plugins
 
 		public string ToolName
 		{
-			get { return "Rankings Viewer"; }
+			get { return "排行榜检视"; }
 		}
 
 

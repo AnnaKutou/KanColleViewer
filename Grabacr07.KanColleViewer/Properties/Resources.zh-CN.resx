@@ -1101,4 +1101,16 @@ GPU: 慢! 适用于平板设备.</value>
   <data name="Overview_RepairDock" xml:space="preserve">
     <value>修理坞</value>
   </data>
+  <data name="Settings_Browser_ResetZoomDescription" xml:space="preserve">
+    <value>放大界面错误时使用</value>
+  </data>
+  <data name="Settings_Browser_ResetZoom_Pre" xml:space="preserve">
+    <value>把游戏画面缩放回</value>
+  </data>
+  <data name="Settings_Browser_ResetZoom_Suf" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Settings_Browser_ZoomDescription" xml:space="preserve">
+    <value>将会改变Windows上（IE）游戏的缩放比，截出的图依旧保持100%，不受显示设置里缩放比影响。</value>
+  </data>
 </root>

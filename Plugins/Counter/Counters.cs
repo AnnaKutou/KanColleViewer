@@ -64,7 +64,7 @@ namespace Counter
 				.Where(x => x.IsSuccess)
 				.Subscribe(_ => this.Count++);
 
-            this.Text = "Number of scraped equipments";
+            this.Text = "废弃装备次数";
 		}
 	}
 
@@ -77,7 +77,7 @@ namespace Counter
 				.Where(x => x.IsSuccess)
 				.Subscribe(_ => this.Count++);
 
-            this.Text = "Number of resupply times";
+            this.Text = "补给次数";
 		}
 	}
 
@@ -92,7 +92,7 @@ namespace Counter
 				.Where(x => x.Data.api_clear_result == 1 || x.Data.api_clear_result == 2)
 				.Subscribe(_ => this.Count++);
 
-            this.Text = "Number of successed expeditions";
+            this.Text = "远征成功次数";
 		}
 	}
 }
