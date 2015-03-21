@@ -716,20 +716,20 @@
     <value>Flash 质量:</value>
   </data>
   <data name="Settings_Flash_Window_ToolTip" xml:space="preserve">
-    <value>不透明: 默认 (旧版 IE 不支持硬件加速)
+    <value>Opaque: 默认 (旧版 IE 不支持硬件加速)
 DirectWrite: 最快的渲染速度 (硬件加速)
-GPU: 慢! 适用于平板设备.</value>
+GPU: 减轻CPU负载，适用于平板设备</value>
   </data>
   <data name="Settings_Flash_Window" xml:space="preserve">
     <value>Flash 窗口:</value>
   </data>
   <data name="Settings_Flash_Quality_ToolTip" xml:space="preserve">
-    <value>最高: 所有图片均启用反锯齿 (慢)
-较高: 默认.
-自动: 需要时自动降低图片质量.
-均衡: 性能均衡
-较低: 尽可能提升速度
-最低: 最好的性能. (惨不忍睹)</value>
+    <value>Best: 最好画质（所有图片均启用反锯齿）
+High: 默认选择
+AutoHigh: 较优先画质
+Medium: 性能画质均衡
+AutoLow: 较优先性能
+Low: 最好性能(画质惨不忍睹)</value>
   </data>
   <data name="Settings_Updates_GetKCVBtn" xml:space="preserve">
     <value>下载最新版本的 KCV</value>

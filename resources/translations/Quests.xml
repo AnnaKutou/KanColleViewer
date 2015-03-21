@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Quests Version="1.1.10-ch">
+<Quests Version="1.1.11-ch">
   <Quest>
     <ID>A1</ID>
     <JP-Name>はじめての「編成」！</JP-Name>
@@ -1154,5 +1154,12 @@
     <TR-Name>桃の節句：「菱餅」を沢山集めるのです！</TR-Name>
     <JP-Detail>結構大変だけれど、敵艦隊を撃破して「菱餅」を10個集めるのです！</JP-Detail>
     <TR-Detail>出击特定海域（未知）并收获「菱餅」10个</TR-Detail>
+  </Quest>
+  <Quest>
+    <ID>416</ID>
+    <JP-Name>防空射撃演習を実施せよ！</JP-Name>
+    <TR-Name>防空射撃演習を実施せよ！</TR-Name>
+    <JP-Detail>「防空射撃演習」を複数回実施し、艦隊の防空能力を高めよ！</JP-Detail>
+    <TR-Detail>远征成功4次「防空射撃演習」</TR-Detail>
   </Quest>
 </Quests>
