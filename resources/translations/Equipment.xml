@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Equipment Version="1.0.15-ch">
+<Equipment Version="1.0.18-ch">
+>>>>>>> d6014c6aba0018edb27200e7f50a330d1e8c2074
   <Item>
     <JP-Name>12cm単装砲</JP-Name>
     <TR-Name>12cm 单装炮</TR-Name>
@@ -507,5 +508,21 @@
   <Item>
     <JP-Name>熟練見張員</JP-Name>
     <TR-Name>熟练观察员</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm高角砲+高射装置</JP-Name>
+    <TR-Name>12.7cm Twin High-angle Mount + Type 94 Anti-Aircraft Fire Director</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>25mm三連装機銃 集中配備</JP-Name>
+    <TR-Name>25mm Triple Autocannon Mount (Concentrated Deployment)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式水中聴音機</JP-Name>
+    <TR-Name>Type 0 Passive Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>WG42 (Wurfgerät 42)</JP-Name>
+    <TR-Name>WG42 (Wurfgerät 42)</TR-Name>
   </Item>
 </Equipment>
