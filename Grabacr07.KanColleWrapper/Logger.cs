@@ -51,19 +51,19 @@ namespace Grabacr07.KanColleWrapper
 			new Dictionary<LogType, LogTypeInfo>
 			{
 				{
-					LogType.BuildItem, new LogTypeInfo("Date,Result,Secretary,Secretary level,Fuel,Ammo,Steel,Bauxite",
+					LogType.BuildItem, new LogTypeInfo("日期,结果,秘书,秘书等级,燃,弹,钢,铝",
 													   "BuildItemLog.csv")
 				},
 				{
-					LogType.BuildShip, new LogTypeInfo("Date,Result,Secretary,Secretary level,Fuel,Ammo,Steel,Bauxite,# of Build Materials",
+					LogType.BuildShip, new LogTypeInfo("日期,结果,秘书,秘书等级,燃,弹,钢,铝,资材",
 													   "BuildShipLog.csv")
 				},
 				{ 
-					LogType.ShipDrop, new LogTypeInfo("Date,Result,Operation,Enemy Fleet,Rank", 
+					LogType.ShipDrop, new LogTypeInfo("日期,结果,区域,敌舰队,战绩", 
 													   "ShipDropLog.csv") 
 				},
 				{ 
-					LogType.Materials, new LogTypeInfo("Date,Fuel,Ammunition,Steel,Bauxite,DevKits,Buckets,Flamethrowers",
+					LogType.Materials, new LogTypeInfo("日期,燃,弹,钢,铝,开发资材,快修桶,快建喷火",
 													   "MaterialsLog.csv") 
 				},
 			};
