@@ -1269,4 +1269,10 @@ Low: 最好性能(画质惨不忍睹)</value>
   <data name="StateDetail_Ready" xml:space="preserve">
     <value>出击准备完成</value>
   </data>
+  <data name="Settings_Browser_HorizontalPosition" xml:space="preserve">
+    <value>横屏情况</value>
+  </data>
+  <data name="Settings_Browser_HorizontalPosition_Description" xml:space="preserve">
+    <value>横屏显示时窗口的位置</value>
+  </data>
 </root>
