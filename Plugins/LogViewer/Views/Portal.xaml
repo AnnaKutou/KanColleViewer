@@ -32,10 +32,10 @@
     <DockPanel Margin="3,0,3,3">
         <Grid DockPanel.Dock="Top"  DataContext="{Binding .}" Margin="3,0,3,0">
             <WrapPanel>
-				<RadioButton Content="Drop log" IsChecked="{Binding SelectorShipDrop, Mode=TwoWay}" Margin="5,5,5,0"/>
-				<RadioButton Content="Ship build log" IsChecked="{Binding SelectorBuildShip, Mode=TwoWay}" Margin="5,5,5,0"/>
-				<RadioButton Content="Item build log" IsChecked="{Binding SelectorBuildItem, Mode=TwoWay}" Margin="5,5,5,0"/>
-				<RadioButton Content="Materials log" IsChecked="{Binding SelectorMaterials, Mode=TwoWay}" Margin="5,5,5,0"/>
+				<RadioButton Content="捞船记录" IsChecked="{Binding SelectorShipDrop, Mode=TwoWay}" Margin="5,5,5,0"/>
+				<RadioButton Content="赌船记录" IsChecked="{Binding SelectorBuildShip, Mode=TwoWay}" Margin="5,5,5,0"/>
+				<RadioButton Content="赌装记录" IsChecked="{Binding SelectorBuildItem, Mode=TwoWay}" Margin="5,5,5,0"/>
+				<RadioButton Content="资源记录" IsChecked="{Binding SelectorMaterials, Mode=TwoWay}" Margin="5,5,5,0"/>
             </WrapPanel>
         </Grid>
         <Border BorderBrush="{DynamicResource BorderBrushKey}"
