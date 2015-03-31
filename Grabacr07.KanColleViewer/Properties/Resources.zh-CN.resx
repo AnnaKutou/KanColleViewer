@@ -247,7 +247,7 @@
     <value>舰娘仍在疲劳期</value>
   </data>
   <data name="MessageBar_ReSortie_CanNotReSortie" xml:space="preserve">
-    <value>艦隊に{0}不能出击。</value>
+    <value>舰队{0}不能出击。</value>
   </data>
   <data name="MessageBar_ReSortie_CanReSortie" xml:space="preserve">
     <value>可以出击！</value>
@@ -472,7 +472,7 @@
     <value>记录掉落、建造和开发的成果</value>
   </data>
   <data name="StartContent_SetRegionCookieButton" xml:space="preserve">
-    <value>设置地区 Cookie</value>
+    <value>设置地区 Cookie（直连）</value>
   </data>
   <data name="StartContent_SetRegionCookieMessage" xml:space="preserve">
     <value>Cookie 已设置</value>
@@ -1072,7 +1072,7 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>舰Colle是在内置的IE上运行的。DMM的服务器是很厉害的，花式发包啦，Flash抽出啦，内存欺骗之类的是行不通的哦。你们如果骗她的话小心被反艹（Ban）哦~</value>
   </data>
   <data name="StartContent_Introduction3" xml:space="preserve">
-    <value>游戏不正常显示或者脚本错误频发的话，请把IE的缓存清理一下。如果问题依旧，请确认自己的IE能不能放Flash。</value>
+    <value>游戏不正常显示或者脚本错误频发的话，请把IE的缓存清理一下。如果问题依旧，请确认自己的IE能不能放Flash。直连有玄学说法会Ban，请自行决断。</value>
   </data>
   <data name="StartContent_Introduction4" xml:space="preserve">
     <value>本工具不定期更新，请酌情检查更新。</value>
@@ -1112,5 +1112,161 @@ Low: 最好性能(画质惨不忍睹)</value>
   </data>
   <data name="Settings_Browser_ZoomDescription" xml:space="preserve">
     <value>将会改变Windows上（IE）游戏的缩放比，截出的图依旧保持100%，不受显示设置里缩放比影响。</value>
+  </data>
+  <data name="FleetDetail_AirSuperiorityPotential" xml:space="preserve">
+    <value>航空优势</value>
+  </data>
+  <data name="FleetDetail_AverageLevel" xml:space="preserve">
+    <value>平均等级</value>
+  </data>
+  <data name="FleetDetail_LoSValue" xml:space="preserve">
+    <value>制空值</value>
+  </data>
+  <data name="FleetDetail_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FleetDetail_Title" xml:space="preserve">
+    <value>舰队详情</value>
+  </data>
+  <data name="FleetDetail_TotalLevel" xml:space="preserve">
+    <value>总等级</value>
+  </data>
+  <data name="FleetDetatils_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Fleets_Details" xml:space="preserve">
+    <value>详情</value>
+  </data>
+  <data name="Fleets_Speed_Mixed" xml:space="preserve">
+    <value>混速舰队</value>
+  </data>
+  <data name="Settings_Browser_Position" xml:space="preserve">
+    <value>游戏窗口位置</value>
+  </data>
+  <data name="Settings_Browser_VerticalPosition" xml:space="preserve">
+    <value>竖屏情况</value>
+  </data>
+  <data name="Settings_Browser_VerticalPosition_Description" xml:space="preserve">
+    <value>竖屏显示时窗口的位置</value>
+  </data>
+  <data name="Settings_Orientation" xml:space="preserve">
+    <value>显示方向</value>
+  </data>
+  <data name="ShipCatalog_Clear" xml:space="preserve">
+    <value>净空</value>
+  </data>
+  <data name="ShipCatalog_Condition" xml:space="preserve">
+    <value>疲劳</value>
+  </data>
+  <data name="ShipCatalog_CustomSort" xml:space="preserve">
+    <value>游戏内</value>
+  </data>
+  <data name="ShipCatalog_ExpForNextLevel" xml:space="preserve">
+    <value>升级还需经验</value>
+  </data>
+  <data name="ShipCatalog_HP" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="ShipCatalog_LOS_description" xml:space="preserve">
+    <value>加上舰装带来的索敌</value>
+  </data>
+  <data name="ShipCatalog_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ShipCatalog_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ShipCatalog_ShipType_AircraftCarriers" xml:space="preserve">
+    <value>空母</value>
+  </data>
+  <data name="ShipCatalog_ShipType_AviationShips" xml:space="preserve">
+    <value>航战·航巡</value>
+  </data>
+  <data name="ShipCatalog_ShipType_Battleships" xml:space="preserve">
+    <value>战舰</value>
+  </data>
+  <data name="ShipCatalog_ShipType_Destroyers" xml:space="preserve">
+    <value>驱逐舰</value>
+  </data>
+  <data name="ShipCatalog_ShipType_HeavyCruisers" xml:space="preserve">
+    <value>重巡·航巡</value>
+  </data>
+  <data name="ShipCatalog_ShipType_LightCruisers" xml:space="preserve">
+    <value>轻巡·雷巡</value>
+  </data>
+  <data name="ShipCatalog_ShipType_Others" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="ShipCatalog_ShipType_Submarines" xml:space="preserve">
+    <value>潜水舰</value>
+  </data>
+  <data name="ShipCatalog_SortSettings" xml:space="preserve">
+    <value>排序设定</value>
+  </data>
+  <data name="ShipCatalog_SortSettings_Ascending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="ShipCatalog_SortSettings_Descending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="ShipCatalog_SortSettings_Description" xml:space="preserve">
+    <value>按以下顺序排列舰娘</value>
+  </data>
+  <data name="ShipCatalog_SortSettings_SortCriteria" xml:space="preserve">
+    <value>排序方法</value>
+  </data>
+  <data name="ShipCatalog_Title" xml:space="preserve">
+    <value>拥有舰娘一览</value>
+  </data>
+  <data name="Ship_Retreat" xml:space="preserve">
+    <value>撤退（护卫退避）</value>
+  </data>
+  <data name="SlotItemCatalog_Improvement" xml:space="preserve">
+    <value>改修</value>
+  </data>
+  <data name="SlotItemCatalog_Title" xml:space="preserve">
+    <value>拥有装备一览</value>
+  </data>
+  <data name="SlotItemCatalog_Total" xml:space="preserve">
+    <value>合计</value>
+  </data>
+  <data name="StateDetail_CanNotDoExpedition" xml:space="preserve">
+    <value>联合舰队不能远征</value>
+  </data>
+  <data name="StateDetail_Fatigued" xml:space="preserve">
+    <value>等待疲劳恢复</value>
+  </data>
+  <data name="StateDetail_HeavilyDamaged" xml:space="preserve">
+    <value>舰队中有舰娘大破</value>
+  </data>
+  <data name="StateDetail_NotFatigued" xml:space="preserve">
+    <value>舰娘疲劳值正常</value>
+  </data>
+  <data name="StateDetail_NotHeavilyDamaged" xml:space="preserve">
+    <value>舰娘未大破</value>
+  </data>
+  <data name="StateDetail_NotOnExpedition" xml:space="preserve">
+    <value>舰队未在远征</value>
+  </data>
+  <data name="StateDetail_NotOnShortSupply" xml:space="preserve">
+    <value>舰队不在补给中</value>
+  </data>
+  <data name="StateDetail_NotOnSortie" xml:space="preserve">
+    <value>舰队未出击</value>
+  </data>
+  <data name="StateDetail_NotReady" xml:space="preserve">
+    <value>舰队没有准备完善</value>
+  </data>
+  <data name="StateDetail_NotRepairing" xml:space="preserve">
+    <value>舰娘未入渠</value>
+  </data>
+  <data name="StateDetail_OnExpeditionDetail" xml:space="preserve">
+    <value>舰队远征中</value>
+  </data>
+  <data name="StateDetail_OnShortSupply" xml:space="preserve">
+    <value>舰队需要补给</value>
+  </data>
+  <data name="StateDetail_Ready" xml:space="preserve">
+    <value>出击准备完成</value>
   </data>
 </root>
