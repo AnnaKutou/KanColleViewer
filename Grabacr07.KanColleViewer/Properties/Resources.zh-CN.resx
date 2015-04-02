@@ -958,7 +958,7 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>远征中的舰娘除外</value>
   </data>
   <data name="ShipCatalog_ExcludeShiptype" xml:space="preserve">
-    <value>不包含舰种</value>
+    <value>不会保存舰种选择！</value>
   </data>
   <data name="ShipCatalog_Expedition" xml:space="preserve">
     <value>远征</value>
@@ -991,25 +991,25 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>幸运</value>
   </data>
   <data name="ShipCatalog_Modernization" xml:space="preserve">
-    <value>现代化改修</value>
+    <value>现代化改修状态</value>
   </data>
   <data name="ShipCatalog_ModernizationComplete" xml:space="preserve">
-    <value>改修完成</value>
+    <value>改修已满</value>
   </data>
   <data name="ShipCatalog_ModernizationIncomplete" xml:space="preserve">
-    <value>改修中</value>
+    <value>仍可改修</value>
   </data>
   <data name="ShipCatalog_Name" xml:space="preserve">
     <value>舰名</value>
   </data>
   <data name="ShipCatalog_RemodelIncomplete" xml:space="preserve">
-    <value>改造中</value>
+    <value>仍可改造</value>
   </data>
   <data name="ShipCatalog_Remodel" xml:space="preserve">
-    <value>改造</value>
+    <value>改造状态</value>
   </data>
   <data name="ShipCatalog_RemodelComplete" xml:space="preserve">
-    <value>改造完成</value>
+    <value>不可改造</value>
   </data>
   <data name="ShipCatalog_ResetFilterSettings" xml:space="preserve">
     <value>重置过滤器</value>
@@ -1024,7 +1024,7 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>舰种</value>
   </data>
   <data name="ShipCatalog_ShowAdditionalShipStats" xml:space="preserve">
-    <value>显示追加舰娘统计信息</value>
+    <value>显示闪避·对潜数据</value>
   </data>
   <data name="ShipCatalog_Slow" xml:space="preserve">
     <value>低速</value>
@@ -1042,16 +1042,16 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>装备名</value>
   </data>
   <data name="SlotItemCatalog_EquippedShipGirls" xml:space="preserve">
-    <value>已装备舰娘</value>
+    <value>装备的舰娘</value>
   </data>
   <data name="SlotItemCatalog_Extra" xml:space="preserve">
-    <value>余量</value>
+    <value>空闲</value>
   </data>
   <data name="SlotItemCatalog_Owned" xml:space="preserve">
     <value>持有</value>
   </data>
   <data name="SlotItemCatalog_Stats" xml:space="preserve">
-    <value>统计</value>
+    <value>数据</value>
   </data>
   <data name="Shipyard_Drop" xml:space="preserve">
     <value>掉落</value>
