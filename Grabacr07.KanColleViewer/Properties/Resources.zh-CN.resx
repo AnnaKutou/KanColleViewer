@@ -1153,13 +1153,13 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>显示方向</value>
   </data>
   <data name="ShipCatalog_Clear" xml:space="preserve">
-    <value>净空</value>
+    <value>清空</value>
   </data>
   <data name="ShipCatalog_Condition" xml:space="preserve">
     <value>疲劳</value>
   </data>
   <data name="ShipCatalog_CustomSort" xml:space="preserve">
-    <value>游戏内</value>
+    <value>获得</value>
   </data>
   <data name="ShipCatalog_ExpForNextLevel" xml:space="preserve">
     <value>升级还需经验</value>
