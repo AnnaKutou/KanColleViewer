@@ -22,6 +22,8 @@
              MinWidth="{Binding Source={x:Static properties:Settings.Default}, Path=UIContentWidth, Mode=OneTime}">
     <UserControl.Resources>
         <ResourceDictionary>
+			<converters:HasFlagConverter x:Key="HasFlagConverter" />
+			
             <Style TargetType="{x:Type Border}">
                 <Setter Property="BorderBrush"
 						Value="{DynamicResource BorderBrushKey}" />
@@ -35,10 +37,6 @@
                     <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Vertical">
                         <Setter Property="Margin" Value="5,0,5,10"/>
                         <Setter Property="Padding" Value="8"/>
-                    </DataTrigger>
-                    <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Horizontal">
-                        <Setter Property="Margin" Value="5,0,5,5"/>
-                        <Setter Property="Padding" Value="4"/>
                     </DataTrigger>
                 </Style.Triggers>
             </Style>
@@ -60,10 +58,6 @@
                     <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Vertical">
                         <Setter Property="Margin" Value="5,0,5,10"/>
                         <Setter Property="Padding" Value="8"/>
-                    </DataTrigger>
-                    <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Horizontal">
-                        <Setter Property="Margin" Value="5,0,5,5"/>
-                        <Setter Property="Padding" Value="4"/>
                     </DataTrigger>
                 </Style.Triggers>
             </Style>
@@ -137,9 +131,9 @@
                             </ItemsControl.ItemTemplate>
                         </ListBox>
 
-                        <!--<vContents:StateDetailIndicator DockPanel.Dock="Top"
+                        <vContents:StateDetailIndicator DockPanel.Dock="Top"
 													DataContext="{Binding SelectedFleet}"
-													Margin="0,7,0,3" />-->
+													Margin="0,7,0,3" />
 
 						<ItemsControl ItemsSource="{Binding SelectedFleet.Ships}"
 									  Background="Transparent"
@@ -162,9 +156,9 @@
 											</Style>
 										</StackPanel.Resources>
 
-                                        <Rectangle Height="1"
+                                        <!--<Rectangle Height="1"
 												   Margin="0,0,0,2"
-												   Style="{DynamicResource SeparatorRectangleStyleKey}" />
+												   Style="{DynamicResource SeparatorRectangleStyleKey}" />-->
 
                                         <Grid HorizontalAlignment="Left">
 											<Grid.ColumnDefinitions>
@@ -241,13 +235,13 @@
 														   HorizontalAlignment="Center" />
 											</Grid>
                                             
-                                            <Grid x:Name="RetreatIndicator"
+											<Grid x:Name="EvacuationIndicator"
 												  Grid.Column="2"
 												  Visibility="Collapsed"
 												  Margin="8,2,8,0">
 												<Border Background="{DynamicResource FleetRepairingBrushKey}"
 														Opacity=".4" />
-												<TextBlock Text="{Binding Resources.Ship_Retreat, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
+												<TextBlock Text="退避済"
 														   Style="{DynamicResource EmphaticTextStyleKey}"
 														   HorizontalAlignment="Center" />
 											</Grid>
@@ -263,10 +257,14 @@
 													 FontSize="9" />
 											</TextBlock>
 										</Grid>
+
+										<Rectangle Height="1"
+												   Margin="0,2,0,0"
+												   Style="{DynamicResource SeparatorRectangleStyleKey}" />
 									</StackPanel>
 
 									<DataTemplate.Triggers>
-										<DataTrigger Binding="{Binding Ship.IsInRepairing}"
+										<DataTrigger Binding="{Binding Ship.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Repair}"
 													 Value="True">
 											<Setter TargetName="HPIndicator"
 													Property="Opacity"
@@ -275,12 +273,12 @@
 													Property="Visibility"
 													Value="Visible" />
 										</DataTrigger>
-                                        <DataTrigger Binding="{Binding Ship.IsRetreat}"
+										<DataTrigger Binding="{Binding Ship.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Tow|Evacuation}"
 													 Value="True">
 											<Setter TargetName="HPIndicator"
 													Property="Opacity"
 													Value=".2" />
-											<Setter TargetName="RetreatIndicator"
+											<Setter TargetName="EvacuationIndicator"
 													Property="Visibility"
 													Value="Visible" />
 										</DataTrigger>
@@ -291,14 +289,6 @@
                                             <Setter TargetName="HPIndicator"
 											                Property="Margin"
 											                Value="12,1,12,0" />
-                                        </DataTrigger>
-                                        <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Horizontal">
-                                            <Setter TargetName="LevelText"
-											                Property="Margin"
-											                Value="10,0,0,0" />
-                                            <Setter TargetName="HPIndicator"
-											                Property="Margin"
-											                Value="10,1,10,0" />
                                         </DataTrigger>
 									</DataTemplate.Triggers>
 								</DataTemplate>
@@ -354,6 +344,7 @@
                                                     <Setter TargetName="ShipName"
 												Property="Text"
 												Value="" />
+													<Setter Property="Visibility" Value="Collapsed" />
                                                 </DataTrigger>
                                                 <DataTrigger Binding="{Binding State}"
 												 Value="Unlocked">
@@ -402,6 +393,7 @@
                                                     <Setter TargetName="ShipName"
 												Property="Text"
 												Value="" />
+													<Setter Property="Visibility" Value="Collapsed" />
                                                 </DataTrigger>
                                                 <DataTrigger Binding="{Binding State}"
 												 Value="Unlocked">

@@ -342,7 +342,7 @@
                                             <LineBreak />
                                             <Run Text="中文项目:" />
                                             <metro2:HyperlinkEx Uri="https://github.com/AnnaKutou/KanColleViewer">
-                                                <Run Text="杏奈" />
+                                                <Run Text="杏奈's fork" />
                                             </metro2:HyperlinkEx>
                                             <LineBreak />
                                         </Paragraph>

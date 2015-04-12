@@ -94,7 +94,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="1"
-					   Margin="8,0">App</TextBlock>
+					   Margin="8,0">主程序</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="1"
 					   Margin="0,2"
@@ -112,7 +112,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="2"
-					   Margin="8,0">Equipment</TextBlock>
+					   Margin="8,0">装备</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="2"
 					   Margin="0,2"
@@ -130,7 +130,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="3"
-					   Margin="8,0">Operations</TextBlock>
+					   Margin="8,0">操作</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="3"
 					   Margin="0,2"
@@ -148,7 +148,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="4"
-					   Margin="8,0">Quests</TextBlock>
+					   Margin="8,0">任务</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="4"
 					   Margin="0,2"
@@ -166,7 +166,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="5"
-					   Margin="8,0">Ships</TextBlock>
+					   Margin="8,0">舰船</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="5"
 					   Margin="0,2"
@@ -184,7 +184,7 @@
 
 			<TextBlock Grid.Column="2"
 					   Grid.Row="6"
-					   Margin="8,0">Ship Types</TextBlock>
+					   Margin="8,0">舰种</TextBlock>
 			<TextBlock Grid.Column="3"
 					   Grid.Row="6"
 					   Margin="0,2"
@@ -202,7 +202,7 @@
             
             <TextBlock Grid.Column="2"
 					   Grid.Row="7"
-					   Margin="8,0">Expeditions</TextBlock>
+					   Margin="8,0">远征</TextBlock>
             <TextBlock Grid.Column="3"
 					   Grid.Row="7"
 					   Margin="0,2"
