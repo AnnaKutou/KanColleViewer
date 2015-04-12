@@ -523,7 +523,7 @@
     <value>幸运</value>
   </data>
   <data name="Stats_SightRange" xml:space="preserve">
-    <value>距离</value>
+    <value>索敌</value>
   </data>
   <data name="Stats_Speed" xml:space="preserve">
     <value>速度</value>
@@ -826,7 +826,7 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>建造</value>
   </data>
   <data name="Shipyard_Development" xml:space="preserve">
-    <value>开发 / 拆解</value>
+    <value>开发 / 掉落</value>
   </data>
   <data name="Shipyard_Development_Result_Failure" xml:space="preserve">
     <value>失败</value>
@@ -1144,10 +1144,10 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>游戏窗口位置</value>
   </data>
   <data name="Settings_Browser_VerticalPosition" xml:space="preserve">
-    <value>竖屏情况</value>
+    <value>竖向模式</value>
   </data>
   <data name="Settings_Browser_VerticalPosition_Description" xml:space="preserve">
-    <value>竖屏显示时窗口的位置</value>
+    <value>竖向显示时窗口的位置</value>
   </data>
   <data name="Settings_Orientation" xml:space="preserve">
     <value>显示方向</value>
@@ -1258,7 +1258,7 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>舰队没有准备完善</value>
   </data>
   <data name="StateDetail_NotRepairing" xml:space="preserve">
-    <value>舰娘未入渠</value>
+    <value>没有舰娘入渠</value>
   </data>
   <data name="StateDetail_OnExpeditionDetail" xml:space="preserve">
     <value>舰队远征中</value>
@@ -1270,10 +1270,10 @@ Low: 最好性能(画质惨不忍睹)</value>
     <value>出击准备完成</value>
   </data>
   <data name="Settings_Browser_HorizontalPosition" xml:space="preserve">
-    <value>横屏情况</value>
+    <value>横向模式</value>
   </data>
   <data name="Settings_Browser_HorizontalPosition_Description" xml:space="preserve">
-    <value>横屏显示时窗口的位置</value>
+    <value>横向显示时窗口的位置</value>
   </data>
   <data name="Ship_Healthy" xml:space="preserve">
     <value>良好</value>
