@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Quests Version="1.1.14-ch">
+<Quests Version="1.1.15-ch">
   <Quest>
     <ID>A1</ID>
     <JP-Name>はじめての「編成」！</JP-Name>
@@ -1164,57 +1164,57 @@
   </Quest>
   <Quest>
     <JP-Name>「改装防空重巡」出撃せよ！</JP-Name>
-    <TR-Name>Sortie the remodeled Air-Defence Heavy Cruiser!</TR-Name>
+    <TR-Name>「改装防空重巡」出撃せよ！</TR-Name>
     <JP-Detail>摩耶改または摩耶改二及び軽巡1駆逐2隻を含む艦隊でオリョール海の敵艦隊を撃滅せよ！</JP-Detail>
     <TR-Detail>含有摩耶改（或改二）以及1轻巡2驱逐的舰队打2-3Boss点S胜</TR-Detail>
   </Quest>
   <Quest>
     <ID>417</ID>
     <JP-Name>囮機動部隊支援作戦を実施せよ！</JP-Name>
-    <TR-Name>Implement the decoy task force support strategy!</TR-Name>
+    <TR-Name>囮機動部隊支援作戦を実施せよ！</TR-Name>
     <JP-Detail>「囮機動部隊支援作戦」を実施し、これを成功させよ！</JP-Detail>
     <TR-Detail>远征15「囮機動部隊支援作戦」成功一次</TR-Detail>
   </Quest>
   <Quest>
     <ID>152</ID>
     <JP-Name>「三川艦隊」を新編、突入準備せよ！</JP-Name>
-    <TR-Name>Reform the Mikawa fleet!</TR-Name>
+    <TR-Name>「三川艦隊」を新編、突入準備せよ！</TR-Name>
     <JP-Detail>第一艦隊において、「鳥海改二」を旗艦とする三川艦隊を編成せよ！</JP-Detail>
     <TR-Detail>鳥海改二，青葉，衣笠，加古，古鹰，天龍编入第一舰队即可</TR-Detail>
   </Quest>
   <Quest>
     <ID>274</ID>
     <JP-Name>「第六駆逐隊」対潜哨戒なのです！</JP-Name>
-    <TR-Name>Destroyer Division 6 Anti-submarine Patrol nanodesu!</TR-Name>
+    <TR-Name>「第六駆逐隊」対潜哨戒なのです！</TR-Name>
     <JP-Detail>「第六駆逐隊」を含む艦隊で鎮守府正面へ展開、対潜哨戒を実施せよ！</JP-Detail>
     <TR-Detail>晓响雷电（第六驱逐队，不含其他船）打1-5Boss点C败或以上</TR-Detail>
   </Quest>
   <Quest>
     <ID>307</ID>
     <JP-Name>艦隊の練度向上に努めよ！</JP-Name>
-    <TR-Name>Practice to improve fleet!</TR-Name>
+    <TR-Name>艦隊の練度向上に努めよ！</TR-Name>
     <JP-Detail>作戦前に艦隊の練度向上を図る！本日中に「演習」で3回以上「勝利」をおさめよう！</JP-Detail>
     <TR-Detail>一天内演习三次胜利</TR-Detail>
   </Quest>
   <Quest>
     <ID>273</ID>
     <JP-Name>新編「三川艦隊」ソロモン方面へ！</JP-Name>
-    <TR-Name>Mikawa Fleet to the Solomon Seas!</TR-Name>
+    <TR-Name>新編「三川艦隊」ソロモン方面へ！</TR-Name>
     <JP-Detail>第一艦隊に編成した「三川艦隊」を南方海域に進出させ、同方面の敵艦隊を撃滅せよ！</JP-Detail>
     <TR-Detail>鳥海改二，青葉，衣笠，加古，古鹰，天龍打5-1Boss点S胜</TR-Detail>
   </Quest>
   <Quest>
     <ID>275</ID>
     <JP-Name>抜錨！「第十八戦隊」</JP-Name>
-    <TR-Name>Sortie! Cruiser Division 18</TR-Name>
+    <TR-Name>抜錨！「第十八戦隊」</TR-Name>
     <JP-Detail>「天龍」「龍田」を基幹戦力とした「第十八戦隊」で出撃し、オリョール海の敵主力を撃滅せよ！</JP-Detail>
-    <TR-Detail>含有天龍、龍田的舰队（四船以上）打 5-1Boss点S胜</TR-Detail>
+    <TR-Detail>含有天龍、龍田的舰队（四船以上）打2-3Boss点S胜</TR-Detail>
   </Quest>
   <Quest>
     <ID>153</ID>
     <JP-Name>「第十八戦隊」を新編成せよ！</JP-Name>
     <TR-Name>Form the 18th Fleet!</TR-Name>
     <JP-Detail>軽巡洋艦「天龍」「龍田」を基幹戦力とした「第十八戦隊」を4隻以上で新編成せよ！</JP-Detail>
-    <TR-Detail>天龍、龍田和其余二船（以上）编入同一舰队即可</TR-Detail>
+    <TR-Detail>天龍、龍田和其余船（一共4只以上）编入同一舰队即可</TR-Detail>
   </Quest>
 </Quests>
