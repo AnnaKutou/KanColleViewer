@@ -2,7 +2,7 @@
 --
 
 KCV是一个添加了若干辅助功能的舰娘用浏览器。
-源项目：[KanColleViewer](http://grabacr.net/kancolleviewer)
+万恶之源：[KanColleViewer](http://grabacr.net/kancolleviewer)
 
 本项目基于Clicia 的KCV版本进行本地化。[Clicia 's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
 
@@ -17,6 +17,7 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 * [taihou](https://github.com/taihou) -- 日志功能
 * [FreyYa](https://github.com/FreyYa) -- 自定义声音
 * [Paddy Xu](https://github.com/Xupefei) -- 记录检视
+
 ## 下载
 可在下面的链接里下载
 
