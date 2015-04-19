@@ -4,10 +4,11 @@
 KCV是一个添加了若干辅助功能的舰娘用浏览器。
 源项目：[KanColleViewer](http://grabacr.net/kancolleviewer)
 
-本项目基于yuyuvn的KCV版本进行本地化。[yuyuvn's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
+本项目基于Clicia 的KCV版本进行本地化。[Clicia 's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
 
 ##### 主要贡献者
-* [Clicia](https://github.com/yuyuvn) -- Maintainer
+* [杏奈](https://github.com/AnnaKutou) -- Maintainer
+* [Clicia](https://github.com/yuyuvn) -- Another English Version
 * [@Zharay](http://twitter.com/Zharay) -- English Version
 * [@Grabacr07](https://twitter.com/Grabacr07) -- Original author
 * [silfumus](https://github.com/silfumus) -- Continued Work (defunct)
@@ -15,7 +16,6 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 * [m-kc](https://github.com/m-kc) -- Rankings section
 * [taihou](https://github.com/taihou) -- Logging option
 * [FreyYa](https://github.com/FreyYa) -- Custom Sound
-* [杏奈](https://github.com/AnnaKutou)、Mr.WinWin -- 中文本土化
 
 ## 下载
 可在下面的链接里下载
