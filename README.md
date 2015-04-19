@@ -19,7 +19,6 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 * [Paddy Xu](https://github.com/Xupefei) -- 记录检视
 
 ##### 下载
-可在下面的链接里下载
 * [度盘](http://pan.baidu.com/s/1qWC1RL6)
 
 ## 这货和Grabarc07的原版KCV有什么区别吗?
