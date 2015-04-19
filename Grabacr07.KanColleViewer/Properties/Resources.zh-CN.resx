@@ -674,7 +674,7 @@
     <value>更新</value>
   </data>
   <data name="Updater_Notification_TransUpdate_Fail" xml:space="preserve">
-    <value>KCV 无法下载最新翻译文件</value>
+    <value>KCV 无法下载最新翻译文件，请强制更新。</value>
   </data>
   <data name="Updater_Notification_TransUpdate_Same" xml:space="preserve">
     <value>翻译文件已是最新</value>
