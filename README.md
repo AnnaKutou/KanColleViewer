@@ -7,8 +7,8 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 本项目基于Clicia 的KCV版本进行本地化。[Clicia 's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
 
 ##### 主要贡献者
-* [杏奈](https://github.com/AnnaKutou) -- Maintainer
-* [Clicia](https://github.com/yuyuvn) -- Another English Version
+* [杏奈](https://github.com/AnnaKutou) -- 维护者
+* [Clicia](https://github.com/yuyuvn) -- Source Project
 * [@Zharay](http://twitter.com/Zharay) -- English Version
 * [@Grabacr07](https://twitter.com/Grabacr07) -- Original author
 * [silfumus](https://github.com/silfumus) -- Continued Work (defunct)
