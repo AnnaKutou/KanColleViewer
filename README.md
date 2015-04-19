@@ -22,6 +22,23 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 
 * [度盘](http://pan.baidu.com/s/1qWC1RL6)
 
+#### 这货和Grabarc07的原版KCV有什么区别吗?
+* 可横屏竖屏切换
+* 物品，船名有翻译，任务标注完成条件，远征标注奖励。
+* 舰队详情面板
+* 可查看装备信息
+* 可查看排名信息（插件）
+* 肝船计算器（插件）
+* 掉落、建造记录检视（插件）
+* 自动检查更新
+* 可以通过设置Cookies直连
+* 可改变Flash画质来提升渣配置电脑（比如国产寨板）的流畅度
+* 可自定义声音提醒
+* 可记录掉落建造
+* 集成了d.f.32的缓存插件（不提供源码，如果作者对我的行为感到反感，请告诉我，我会撤下插件。）
+
+（这是Clicia的原文）Other than the above, this version is the same with some tweaks to make it fit for an English translation. The plan is to hopefully add some features into the main project for all to enjoy.
+
 ## FAQ:
 
 #### KCV安全吗?
@@ -61,10 +78,11 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 最简单的方法就是禁用选项里的翻译功能。你也能去把语言换成日文（这会让所有翻译都失效）。如果你只想让特定内容显示翻译，那么把translations文件夹里无关的xml文件删掉就好了（记得禁用自动更新）。
 
 #### 我看不懂XXX（XXX还没翻译！）
-你遇到这问题后请务必帮我一下。翻译引擎有能力把新出现的内容加到XML文件后面。找到未翻译内容，然后来这里反馈给我。
+你遇到这问题后请务必帮我一下。翻译引擎可以把新出现的内容加到XML文件后面。找到未翻译内容，然后来这里反馈给我。
 
 #### 就算我换了语言可船名物品名还是英文！
 你丫下载的一定不是我的东西      ——杏奈。
+
 Clicia的版本已经不再支持多语言了，如果你想用其他分支版本KCV的翻译，去改KanColleViewer.exe.config里面KCVUpdateUrl的值为你想用分支的，然后去KCV里强制更新翻译文件，当然，因为是其他分支的，我不能保证他们会不会半路弃坑不做。
 
 ####自定义通知音是什么鬼？
@@ -72,22 +90,6 @@ Clicia的版本已经不再支持多语言了，如果你想用其他分支版�
 
 注意！你界面选的什么语言，你就放进什么语言的文件夹里，如果没有那个文件夹，你自己先搞出一个通知，自然就会创建文件夹了。
 （杏奈：举个栗子吧，如果你是中文使用者而界面语言选择的是英文，那么你想改更新提示音的话，就得放进Updater里而不是更新里）
-#### 这货和Grabarc07的原版KCV有什么区别吗?
-* 可横屏竖屏切换
-* 物品，船名有翻译，任务标注完成条件，远征标注奖励。
-* 舰队详情面板
-* 可查看装备信息
-* 可查看排名信息（插件）
-* 肝船计算器（插件）
-* 掉落、建造记录检视（插件）
-* 自动检查更新
-* 可以通过设置Cookies直连
-* 可改变Flash画质来提升渣配置电脑（比如国产寨板）的流畅度
-* 可自定义声音提醒
-* 可记录掉落建造
-* 集成了d.f.32的缓存插件（不提供源码，如果作者对我的行为感到反感，请告诉我，我会撤下插件。）
-
-（这是Clicia的原文）Other than the above, this version is the same with some tweaks to make it fit for an English translation. The plan is to hopefully add some features into the main project for all to enjoy.
 
 ## 关于项目
 KCV使用 the Windows Presentation Foundation (WPF) 的内置浏览器组件 [FiddlerCore](http://fiddler2.com/fiddlercore) 来捕获服务器与网页的通讯内容。
