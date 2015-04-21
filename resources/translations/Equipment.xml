@@ -47,7 +47,7 @@
   </Item>
   <Item>
     <JP-Name>15.5cm三連装副砲</JP-Name>
-    <TR-Name>15.5cm三联装炮</TR-Name>
+    <TR-Name>15.5cm三联装副炮</TR-Name>
   </Item>
   <Item>
     <JP-Name>61cm三連装魚雷</JP-Name>
@@ -199,7 +199,7 @@
   </Item>
   <Item>
     <JP-Name>20.3cm(3号)連装砲</JP-Name>
-    <TR-Name>20.3cm(三号)联装炮</TR-Name>
+    <TR-Name>20.3cm(3号)联装炮</TR-Name>
   </Item>
   <Item>
     <JP-Name>12cm30連装噴進砲</JP-Name>
