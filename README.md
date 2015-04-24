@@ -63,7 +63,7 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 你需要[.NET Framework 4.5](http://www.microsoft.com/en-us/download/details.aspx?id=30653) 。当然，Win8不用，因为它自带了。
 
 #### 我是Windows XP/Mac/Linux系统但我也想拿这个艹船！
-请允许我做一个北上的表情。巨硬不让XP/Mac/Linux 支持.NET 4.5。于是你有两个选择：升级系统或者用[Logbook](https://github.com/Zharay/logbook) ——另一个基于JAVA的舰娘辅助，有关问题找这家伙 [@Zharay](http://twitter.com/Zharay)。这东西要简单很多，但也是个相当了不起的工程。当然，XP用户可以找找早期版本基于.NET 4.0的KCV（我这里没有）。
+请允许我做一个北上的表情。巨硬不让XP/Mac/Linux 支持.NET 4.5。于是你有两个选择：升级系统或者用[Logbook](https://github.com/Zharay/logbook) ——另一个基于JAVA的舰娘辅助，有关问题找这家伙 [@Zharay](http://twitter.com/Zharay)。这东西要简单很多，但也是相当叼的工程。当然，XP用户可以找找早期版本基于.NET 4.0的KCV（我这里没有）。
 
 ####我白屏了/我报错无法连接。
 请务必在发生这种苦逼的事情的时候告知我们你系统的IE版本号，好让我们幸灾乐祸一下（雾）。其实，一般情况，都是IE版本过于老旧的锅。你可以试试更新IE浏览器。其实还有一些情报显示清除缓存和cookies或是重装flash也可以解决问题。
