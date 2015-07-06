@@ -70,12 +70,12 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public override string Name
 		{
-			get { return "简单"; }
+			get { return Properties.Resources.ViewRange_Type1_Name; }
 		}
 
 		public override string Description
 		{
-			get { return "简单相加船和装备的索敌值"; }
+			get { return Properties.Resources.ViewRange_Type1_Description; }
 		}
 
 		public override double Calc(Ship[] ships)
@@ -96,13 +96,12 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public override string Name
 		{
-			get { return "2-5计算方案(旧)"; }
+			get { return Properties.Resources.ViewRange_Type2_Name; }
 		}
 
 		public override string Description
 		{
-			get { return @"(侦察机× 2) + (电探) + √(算上装备的总索敌值 - 
-侦察机 - 电探)"; }
+			get { return Properties.Resources.ViewRange_Type2_Description; }
 		}
 
 		public override double Calc(Ship[] ships)
@@ -140,17 +139,14 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public override string Name
 		{
-			get { return "2-5计算方案(新)"; }
+			get { return Properties.Resources.ViewRange_Type3_Name; }
 		}
 
 		public override string Description
 		{
 			get
 			{
-				return @"舰爆 x (1.04) + 舰攻 x (1.37) + 
-舰侦 x (1.66) + 水侦 x (2.00) + 水爆 x (1.78) + 
-小型电探 x (1.00) + 大型电探 x (0.99) + 探照灯 x (0.91) + √(各舰基础索敌) x 
-(1.69) + (提督等级四舍五入到5的倍数) x (-0.61)";
+				return Properties.Resources.ViewRange_Type3_Description;
 			}
 		}
 

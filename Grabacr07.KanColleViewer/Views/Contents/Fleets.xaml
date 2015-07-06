@@ -14,7 +14,7 @@
 			 xmlns:fleets="clr-namespace:Grabacr07.KanColleViewer.ViewModels.Contents.Fleets"
 			 xmlns:contents="clr-namespace:Grabacr07.KanColleViewer.Views.Contents"
 			 xmlns:converters="clr-namespace:Grabacr07.KanColleViewer.Views.Converters"
-             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
+			 xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DesignWidth="800"
 			 d:DesignHeight="400"
@@ -451,7 +451,7 @@
 																		   Margin="0,0" />
                                                     </Border>
 													<DataTemplate.Triggers>
-														<DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Vertical">
+													<DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
 															<Setter TargetName="SlotItem"
 																Property="Margin"
 																Value="3,0" />
@@ -479,7 +479,7 @@
 											Property="Visibility"
 											Value="Visible" />
                                 </DataTrigger>
-								<DataTrigger Binding="{Binding Ship.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Tow|Evacuation}"
+								<DataTrigger Binding="{Binding Ship.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Evacuation}"
 											 Value="True">
 									<Setter TargetName="HPText"
 											Property="Opacity"
@@ -491,7 +491,19 @@
 											Property="Visibility"
 											Value="Visible" />
 								</DataTrigger>
-                                <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation}" Value="Vertical">
+								<DataTrigger Binding="{Binding Ship.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Tow}"
+											 Value="True">
+									<Setter TargetName="HPText"
+											Property="Opacity"
+											Value=".2" />
+									<Setter TargetName="HPIndicator"
+											Property="Opacity"
+											Value=".2" />
+									<Setter TargetName="EvacuationIndicator"
+											Property="Visibility"
+											Value="Visible" />
+								</DataTrigger>
+                                <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
                                     <Setter TargetName="ShipNameText"
 											                Property="Margin"
 											                Value="4,0,10,0" />
