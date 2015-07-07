@@ -10,9 +10,24 @@
 			 d:DataContext="{d:DesignInstance counter:CounterViewModel}"
 			 d:DesignHeight="300"
 			 d:DesignWidth="300">
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="pack://application:,,,/MetroRadiance;component/Styles/Controls.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/MetroRadiance;component/Styles/Icons.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/MetroRadiance;component/Themes/Dark.xaml" />
+
+				<ResourceDictionary Source="pack://application:,,,/Desktop.Metro;component/Styles/Controls.xaml" />
+
+				<ResourceDictionary Source="pack://application:,,,/KanColleViewer.Controls;component/Styles/Colors.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/KanColleViewer.Controls;component/Styles/Controls.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</UserControl.Resources>
+
 	<DockPanel>
 		<TextBlock DockPanel.Dock="Bottom"
-				   Text="※从应用启动后开始计数"
+				   Text="※Counter from application started"
 				   Style="{DynamicResource DefaultTextStyleKey}"
 				   Margin="4"
 				   Padding="0,8,0,0" />
@@ -21,9 +36,9 @@
 					  Grid.IsSharedSizeScope="True">
 			<ItemsControl.Template>
 				<ControlTemplate TargetType="{x:Type ItemsControl}">
-                    <StackPanel IsItemsHost="True"
+					<StackPanel IsItemsHost="True"
 									Margin="4" />
-                </ControlTemplate>
+				</ControlTemplate>
 			</ItemsControl.Template>
 
 			<ItemsControl.ItemTemplate>
@@ -47,7 +62,7 @@
 									 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 							</TextBlock>
 							<controls:CallMethodButton Grid.Column="2"
-													   Content="归零"
+													   Content="Reset"
 													   MethodName="Reset" />
 						</Grid>
 					</Border>

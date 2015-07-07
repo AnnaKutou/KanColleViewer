@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Linq;
@@ -45,4 +45,3 @@ namespace Grabacr07.KanColleViewer.Plugins
 		}
 	}
 }
-

@@ -28,7 +28,7 @@ namespace Counter
 
 		public string ToolName
 		{
-			get { return "计数器"; }
+			get { return "Counter"; }
 		}
 
 		public object GetSettingsView()

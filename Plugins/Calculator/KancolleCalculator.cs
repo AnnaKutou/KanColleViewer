@@ -11,7 +11,7 @@ using Grabacr07.KanColleWrapper;
 namespace Grabacr07.KanColleViewer.Plugins
 {
 	[Export(typeof(IToolPlugin))]
-    [ExportMetadata("Title", "Calculator")]
+	[ExportMetadata("Title", "Calculator")]
     [ExportMetadata("Description", "Calculator experience")]
 	[ExportMetadata("Version", "1.1")]
     [ExportMetadata("Author", "@Zharay")]
@@ -21,7 +21,7 @@ namespace Grabacr07.KanColleViewer.Plugins
 
 		public string ToolName
 		{
-			get { return "肝船计算器"; }
+			get { return "Calculator"; }
 		}
 
 

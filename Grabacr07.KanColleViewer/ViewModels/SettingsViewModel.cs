@@ -597,7 +597,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
 				new List<BindableTextViewModel>(),
 				(list, lib) =>
 				{
-					list.Add(new BindableTextViewModel { Text = list.Count == 0 ? "基于 " : ", " });
+					list.Add(new BindableTextViewModel { Text = list.Count == 0 ? "Build with " : ", " });
 					list.Add(new HyperlinkViewModel { Text = lib.Name.Replace(' ', Convert.ToChar(160)), Uri = lib.Url });
 					// プロダクト名の途中で改行されないように、space を non-break space に置き換えてあげてるんだからねっっ
 					return list;
@@ -782,8 +782,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
 		{
 			try
 			{
-				if (!this.AppOnlineVersionURL.IsEmpty())
-					Process.Start(this.AppOnlineVersionURL);
+				Process.Start(this.AppOnlineVersionURL);
 			}
 			catch (Exception ex)
 			{
@@ -822,7 +821,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
 				this.Logic = logic;
 				this.selected = Settings.Current.KanColleClientSettings.ViewRangeCalcType == logic.Id;
 
-				this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceServiceWrapper.Current)
+				this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
 				{
 					(sender, args) =>
 					{
