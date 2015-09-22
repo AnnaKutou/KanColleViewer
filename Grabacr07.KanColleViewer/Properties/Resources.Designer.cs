@@ -313,6 +313,24 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 「提督業も忙しい！」 を終了します。 よろしいですか？.
+        /// </summary>
+        public static string ExitDialogConfirm {
+            get {
+                return ResourceManager.GetString("ExitDialogConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EXIT KanColleViewer.
+        /// </summary>
+        public static string ExitDialogTitle {
+            get {
+                return ResourceManager.GetString("ExitDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 遠征.
         /// </summary>
         public static string Expedition {
@@ -826,51 +844,6 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 任務画面の全ページにアクセスしてください。.
-        /// </summary>
-        public static string Quest_Detail_Untaken {
-            get {
-                return ResourceManager.GetString("Quest_Detail_Untaken", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to  50 % .
-        /// </summary>
-        public static string Quest_Progress_50 {
-            get {
-                return ResourceManager.GetString("Quest_Progress_50", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to  80 % .
-        /// </summary>
-        public static string Quest_Progress_80 {
-            get {
-                return ResourceManager.GetString("Quest_Progress_80", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to  完了 .
-        /// </summary>
-        public static string Quest_State_Accomplished {
-            get {
-                return ResourceManager.GetString("Quest_State_Accomplished", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to (未取得の任務).
-        /// </summary>
-        public static string Quest_Title_Untaken {
-            get {
-                return ResourceManager.GetString("Quest_Title_Untaken", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 任務.
         /// </summary>
         public static string Quests {
@@ -1267,6 +1240,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to オリエンテーションモードを変化する.
+        /// </summary>
+        public static string Settings_ChangeOrientationMode {
+            get {
+                return ResourceManager.GetString("Settings_ChangeOrientationMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 通知音を設定.
         /// </summary>
         public static string Settings_CustomSound {
@@ -1294,7 +1276,34 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Flash.
+        ///   Looks up a localized string similar to 終了確認.
+        /// </summary>
+        public static string Settings_ExitConfirm {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 出撃の時だけ.
+        /// </summary>
+        public static string Settings_ExitConfirmOnlyWhenInSortie {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirmOnlyWhenInSortie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 終了確認ダイアログを利用する.
+        /// </summary>
+        public static string Settings_ExitConfirmOption {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirmOption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flashの設定.
         /// </summary>
         public static string Settings_Flash {
             get {
@@ -1303,8 +1312,16 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This works with DMM.com. OSAPI, and API links now!
-        ///[You must reload the game for the changes to take affect.].
+        ///   Looks up a localized string similar to Flashの設定をへんかする.
+        /// </summary>
+        public static string Settings_Flash_Enable {
+            get {
+                return ResourceManager.GetString("Settings_Flash_Enable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 効果があるため、再起動するのは必要です.
         /// </summary>
         public static string Settings_Flash_Message {
             get {
@@ -1313,7 +1330,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set Flash Quality:.
+        ///   Looks up a localized string similar to Flashの質さ.
         /// </summary>
         public static string Settings_Flash_Quality {
             get {
@@ -1336,7 +1353,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set Flash Window:.
+        ///   Looks up a localized string similar to Flashのタイプ.
         /// </summary>
         public static string Settings_Flash_Window {
             get {
@@ -1824,7 +1841,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Translations.
+        ///   Looks up a localized string similar to 翻訳.
         /// </summary>
         public static string Settings_Translations {
             get {
@@ -1833,7 +1850,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Append untranslated items to the translation files?.
+        ///   Looks up a localized string similar to ゲームの原文をファイルに書き込む.
         /// </summary>
         public static string Settings_Translations_Add_Enable {
             get {
@@ -1842,7 +1859,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Translate game items, ships, and quests to selected language?.
+        ///   Looks up a localized string similar to ゲームの原文を言語化する.
         /// </summary>
         public static string Settings_Translations_Enable {
             get {
@@ -2438,9 +2455,9 @@ namespace Grabacr07.KanColleViewer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to 作戦出撃なし.
         /// </summary>
-        public static string ShipCatalog_Operation_NeitherALnorMI {
+        public static string ShipCatalog_Operation_NotLocked {
             get {
-                return ResourceManager.GetString("ShipCatalog_Operation_NeitherALnorMI", resourceCulture);
+                return ResourceManager.GetString("ShipCatalog_Operation_NotLocked", resourceCulture);
             }
         }
         
@@ -2612,24 +2629,6 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string ShipCatalog_SortieWaters {
             get {
                 return ResourceManager.GetString("ShipCatalog_SortieWaters", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AL 作戦.
-        /// </summary>
-        public static string ShipCatalog_SortieWaters_AL {
-            get {
-                return ResourceManager.GetString("ShipCatalog_SortieWaters_AL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to MI 作戦.
-        /// </summary>
-        public static string ShipCatalog_SortieWaters_MI {
-            get {
-                return ResourceManager.GetString("ShipCatalog_SortieWaters_MI", resourceCulture);
             }
         }
         
@@ -2931,7 +2930,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Make sure DMM.com is set to Japanese (日本語).
+        ///   Looks up a localized string similar to 日本語を選ぶのは必要です.
         /// </summary>
         public static string StartContent_SetRegionCookieToolTip {
             get {
@@ -3084,7 +3083,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 遠征中.
+        ///   Looks up a localized string similar to 遠征中:.
         /// </summary>
         public static string StateDetail_OnExpedition {
             get {
@@ -3093,7 +3092,7 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 艦隊は遠征中です.
+        ///   Looks up a localized string similar to 艦隊は遠征中です:.
         /// </summary>
         public static string StateDetail_OnExpeditionDetail {
             get {
@@ -3143,123 +3142,6 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string StateDetail_ShortSupply {
             get {
                 return ResourceManager.GetString("StateDetail_ShortSupply", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 命中.
-        /// </summary>
-        public static string Stats_Accuracy {
-            get {
-                return ResourceManager.GetString("Stats_Accuracy", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 対空.
-        /// </summary>
-        public static string Stats_AntiAir {
-            get {
-                return ResourceManager.GetString("Stats_AntiAir", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 対潜.
-        /// </summary>
-        public static string Stats_AntiSub {
-            get {
-                return ResourceManager.GetString("Stats_AntiSub", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 装甲.
-        /// </summary>
-        public static string Stats_Armor {
-            get {
-                return ResourceManager.GetString("Stats_Armor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 射程.
-        /// </summary>
-        public static string Stats_AttackRange {
-            get {
-                return ResourceManager.GetString("Stats_AttackRange", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 爆装.
-        /// </summary>
-        public static string Stats_DiveBomb {
-            get {
-                return ResourceManager.GetString("Stats_DiveBomb", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 回避.
-        /// </summary>
-        public static string Stats_Evasion {
-            get {
-                return ResourceManager.GetString("Stats_Evasion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 火力.
-        /// </summary>
-        public static string Stats_Firepower {
-            get {
-                return ResourceManager.GetString("Stats_Firepower", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 耐久.
-        /// </summary>
-        public static string Stats_Health {
-            get {
-                return ResourceManager.GetString("Stats_Health", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 運.
-        /// </summary>
-        public static string Stats_Luck {
-            get {
-                return ResourceManager.GetString("Stats_Luck", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 索敵.
-        /// </summary>
-        public static string Stats_SightRange {
-            get {
-                return ResourceManager.GetString("Stats_SightRange", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 速力.
-        /// </summary>
-        public static string Stats_Speed {
-            get {
-                return ResourceManager.GetString("Stats_Speed", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 雷装.
-        /// </summary>
-        public static string Stats_Torpedo {
-            get {
-                return ResourceManager.GetString("Stats_Torpedo", resourceCulture);
             }
         }
         

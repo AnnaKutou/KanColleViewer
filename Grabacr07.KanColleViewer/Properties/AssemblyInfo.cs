@@ -7,7 +7,7 @@ using System.Windows;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("提督很忙！")]
+[assembly: AssemblyTitle("KanColleViewer!")]
 [assembly: AssemblyDescription("KanColleViewer!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("grabacr.net")]
@@ -51,5 +51,4 @@ using System.Windows;
 // すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-
-[assembly: AssemblyVersion("3.7.0.543")]
+[assembly: AssemblyVersion("3.8.2.557")]

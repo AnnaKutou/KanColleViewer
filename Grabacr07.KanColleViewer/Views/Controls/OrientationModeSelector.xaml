@@ -29,7 +29,10 @@
 						<ContentPresenter Margin="8,0,10,0" />
 					</Border>
 					<ControlTemplate.Triggers>
-						<DataTrigger Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentModeString, Mode=OneWay}" Value="H">
+						<MultiDataTrigger>
+							<MultiDataTrigger.Conditions>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentMode}" Value="Horizontal"/>
+							</MultiDataTrigger.Conditions>
 							<Setter Property="Content" >
 								<Setter.Value>
 									<Viewbox Width="25" Height="25">
@@ -44,8 +47,11 @@
 									</Viewbox>
 								</Setter.Value>
 							</Setter>
-						</DataTrigger>
-						<DataTrigger Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentModeString, Mode=OneWay}" Value="V">
+						</MultiDataTrigger>
+						<MultiDataTrigger>
+							<MultiDataTrigger.Conditions>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentMode}" Value="Vertical"/>
+							</MultiDataTrigger.Conditions>
 							<Setter Property="Content" >
 								<Setter.Value>
 									<Viewbox Width="25" Height="25">
@@ -60,8 +66,12 @@
 									</Viewbox>
 								</Setter.Value>
 							</Setter>
-						</DataTrigger>
-						<DataTrigger Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentModeString, Mode=OneWay}" Value="Ah">
+						</MultiDataTrigger>
+						<MultiDataTrigger>
+							<MultiDataTrigger.Conditions>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentMode}" Value="Auto"/>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.Mode}" Value="Horizontal"/>
+							</MultiDataTrigger.Conditions>
 							<Setter Property="Content" >
 								<Setter.Value>
 									<Viewbox Width="25" Height="25">
@@ -77,9 +87,13 @@
 									</Viewbox>
 								</Setter.Value>
 							</Setter>
-						</DataTrigger>
-						<DataTrigger Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentModeString, Mode=OneWay}" Value="Av">
-							<Setter Property="Content" >
+						</MultiDataTrigger>
+						<MultiDataTrigger>
+							<MultiDataTrigger.Conditions>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.CurrentMode}" Value="Auto"/>
+								<Condition Binding="{Binding ElementName=OrientationController, Path=OrientationMode.Mode}" Value="Vertical"/>
+							</MultiDataTrigger.Conditions>
+							<Setter Property="Content">
 								<Setter.Value>
 									<Viewbox Width="25" Height="25">
 										<Grid>
@@ -94,7 +108,7 @@
 									</Viewbox>
 								</Setter.Value>
 							</Setter>
-						</DataTrigger>
+						</MultiDataTrigger>
 					</ControlTemplate.Triggers>
 				</ControlTemplate>
 			</ToggleButton.Template>
@@ -121,9 +135,7 @@
 							BorderBrush="{DynamicResource AccentBrushKey}"
 							BorderThickness="1">
 						<StackPanel Margin="8">
-
-                            <TextBlock Text="{Binding Resources.Settings_Orientation, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
-
+							<TextBlock Text="{Binding Resources.Settings_Orientation, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 							<Rectangle Height="1"
 									   Fill="{DynamicResource InactiveForegroundBrushKey}"
 									   Margin="0,8" />
@@ -180,7 +192,7 @@
 										</Setter>
 									</Style>
 								</ListBox.ItemContainerStyle>
-                            </ListBox>
+							</ListBox>
 						</StackPanel>
 					</Border>
 				</Grid>

@@ -27,7 +27,7 @@ namespace Grabacr07.KanColleWrapper
 		// ReSharper disable once AssignNullToNotNullAttribute
 		public static string LogFolder = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "Logs");
 
-	    public enum LogType
+		public enum LogType
 		{
 			BuildItem,
 			BuildShip,
@@ -35,12 +35,12 @@ namespace Grabacr07.KanColleWrapper
 			Materials
 		};
 
-	    public struct LogTypeInfo
+		public struct LogTypeInfo
 		{
 			public string Parameters;
-            public string FileName;
+			public string FileName;
 
-            public LogTypeInfo(string parameters, string fileName)
+			public LogTypeInfo(string parameters, string fileName)
 			{
 				this.Parameters = parameters;
 				this.FileName = fileName;
@@ -51,19 +51,19 @@ namespace Grabacr07.KanColleWrapper
 			new Dictionary<LogType, LogTypeInfo>
 			{
 				{
-					LogType.BuildItem, new LogTypeInfo("日期,结果,秘书,秘书等级,燃,弹,钢,铝",
+					LogType.BuildItem, new LogTypeInfo("Date,Result,Secretary,Secretary level,Fuel,Ammo,Steel,Bauxite",
 													   "BuildItemLog.csv")
 				},
 				{
-					LogType.BuildShip, new LogTypeInfo("日期,结果,秘书,秘书等级,燃,弹,钢,铝,资材",
+					LogType.BuildShip, new LogTypeInfo("Date,Result,Secretary,Secretary level,Fuel,Ammo,Steel,Bauxite,# of Build Materials",
 													   "BuildShipLog.csv")
 				},
 				{ 
-					LogType.ShipDrop, new LogTypeInfo("日期,结果,区域,敌舰队,战绩", 
+					LogType.ShipDrop, new LogTypeInfo("Date,Result,Operation,Enemy Fleet,Rank", 
 													   "ShipDropLog.csv") 
 				},
 				{ 
-					LogType.Materials, new LogTypeInfo("日期,燃,弹,钢,铝,开发资材,快修桶,快建喷火",
+					LogType.Materials, new LogTypeInfo("Date,Fuel,Ammunition,Steel,Bauxite,DevKits,Buckets,Flamethrowers",
 													   "MaterialsLog.csv") 
 				},
 			};
@@ -187,7 +187,7 @@ namespace Grabacr07.KanColleWrapper
 			if (source == null || source.Length != 7)
 				return;
 
-			Log(LogType.Materials,
+			this.Log(LogType.Materials,
 				source[0].api_value, source[1].api_value, source[2].api_value, source[3].api_value, source[6].api_value, source[5].api_value, source[4].api_value);
 		}
 
@@ -196,7 +196,7 @@ namespace Grabacr07.KanColleWrapper
 			if (source == null || source.Length != 4)
 				return;
 
-			Log(LogType.Materials,
+			this.Log(LogType.Materials,
 				source[0], source[1], source[2], source[3], 
 				KanColleClient.Current.Homeport.Materials.DevelopmentMaterials, 
 				KanColleClient.Current.Homeport.Materials.InstantRepairMaterials, 
@@ -214,9 +214,7 @@ namespace Grabacr07.KanColleWrapper
 
 			using (var w = File.AppendText(logPath))
 			{
-				w.Write(DateTime.Now.ToString(this.LogTimestampFormat) + ",");
-				args.ForEach(arg => w.Write(arg + ","));
-                w.WriteLine();
+				w.WriteLine(DateTime.Now.ToString(this.LogTimestampFormat) + "," + string.Join(",", args));
 			}
 		}
 
