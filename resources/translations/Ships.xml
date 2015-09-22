@@ -939,6 +939,18 @@
     <JP-Name>Roma</JP-Name>
     <TR-Name>Roma</TR-Name>
   </Ship>
+  <Ship>
+    <JP-Name>Littorio</JP-Name>
+    <TR-Name>Littorio</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>Italia</JP-Name>
+    <TR-Name>Italia</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>Roma</JP-Name>
+    <TR-Name>Roma</TR-Name>
+  </Ship>
   <Ship mode="suffix">
 	<JP-Name>改</JP-Name>
     <TR-Name> 改</TR-Name>

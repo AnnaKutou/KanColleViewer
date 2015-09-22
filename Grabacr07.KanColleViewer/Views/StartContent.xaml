@@ -165,7 +165,7 @@
 								  Margin="0,0,30,-4"
 								  Opacity="0.25" />
 							<StackPanel DataContext="{Binding Source={x:Static root:App.ViewModelRoot}, Path=Settings}">
-								<TextBlock>
+                                <TextBlock>
 								<Run Text="{Binding Source={x:Static root:App.ProductInfo}, Path=Title, Mode=OneWay}"
 									 FontFamily="Segoe UI Light"
 									 FontSize="30"
@@ -404,10 +404,10 @@
 										   FontSize="14" />
 						</TabItem.Header>
 
-						<settings:Updates Margin="10,9" />
-					</TabItem>
-				</TabControl>
-			</ScrollViewer>
-		</ScrollViewer>
-	</Border>
+                        <settings:Updates Margin="10,9" />
+                    </TabItem>
+                </TabControl>
+            </ScrollViewer>
+        </ScrollViewer>
+    </Border>
 </UserControl>

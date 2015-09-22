@@ -29,16 +29,16 @@
 		</ResourceDictionary>
 	</UserControl.Resources>
 
-	<DockPanel Margin="3,0,3,3">
-		<Grid DockPanel.Dock="Top" Margin="3,0,3,0">
+    <DockPanel Margin="3,0,3,3">
+        <Grid DockPanel.Dock="Top" Margin="3,0,3,0">
 			<WrapPanel>
 				<RadioButton Content="Drop log" IsChecked="{Binding SelectorShipDrop, Mode=TwoWay}" Margin="5,5,5,0"/>
 				<RadioButton Content="Ship build log" IsChecked="{Binding SelectorBuildShip, Mode=TwoWay}" Margin="5,5,5,0"/>
 				<RadioButton Content="Item build log" IsChecked="{Binding SelectorBuildItem, Mode=TwoWay}" Margin="5,5,5,0"/>
 				<RadioButton Content="Materials log" IsChecked="{Binding SelectorMaterials, Mode=TwoWay}" Margin="5,5,5,0"/>
-			</WrapPanel>
-		</Grid>
-
+            </WrapPanel>
+        </Grid>
+		
 		<Grid DockPanel.Dock="Bottom" Margin="3,0,3,0">
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="Auto" />
@@ -68,16 +68,16 @@
 		<Border BorderBrush="{DynamicResource BorderBrushKey}"
 					BorderThickness="1"
 					Margin="0,8,0,8">
-			<ListView controls:LogListView.LogSource="{Binding LogCollection}"
-					  ItemContainerStyle="{DynamicResource GridViewItemContainerStyleKey}"
-					  ScrollViewer.VerticalScrollBarVisibility="Disabled"
-					  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
-				<i:Interaction.Behaviors>
-					<behaviors:IgnoreMouseWheelBehavior />
-					<behaviors:IsVisibleChangedBehaviour />
-				</i:Interaction.Behaviors>
-				<ListView.Resources>
-					<!--<Style TargetType="{x:Type TextBlock}"
+            <ListView controls:LogListView.LogSource="{Binding LogCollection}"
+						  ItemContainerStyle="{DynamicResource GridViewItemContainerStyleKey}"
+                          ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <i:Interaction.Behaviors>
+                    <behaviors:IgnoreMouseWheelBehavior />
+                    <behaviors:IsVisibleChangedBehaviour />
+                </i:Interaction.Behaviors>
+                <ListView.Resources>
+                    <!--<Style TargetType="{x:Type TextBlock}"
 							   BasedOn="{StaticResource DefaultTextStyleKey}">
 					<Setter Property="Margin"
 									Value="5,4" />

@@ -26,8 +26,8 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public string Name
 		{
-            get { return KanColleClient.Current.Translations.GetTranslation(this.RawData.api_name, TranslationType.Equipment, this.RawData); }
-        }
+			get { return KanColleClient.Current.Translations.GetTranslation(this.RawData.api_name, TranslationType.Equipment, this.RawData); }
+		}
 
 		public string UntranslatedName
 		{

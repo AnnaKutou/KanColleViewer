@@ -153,11 +153,11 @@
 								<GridViewColumn.Header>
 									<TextBlock>
 										<Run Text="{Binding Resources.SlotItemCatalog_Stats, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
-									</TextBlock>
-								</GridViewColumn.Header>
-								<GridViewColumn.CellTemplate>
+                                    </TextBlock>
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
 									<DataTemplate DataType="{x:Type viewModels:SlotItemCounter}">
-										<TextBlock Margin="0,4"
+                                        <TextBlock Margin="0,4"
 												   TextWrapping="Wrap">
 											<Run Text="{Binding Target.AllStats, Mode=OneWay}"
 												 Foreground="{DynamicResource ActiveForegroundBrushKey}" />
