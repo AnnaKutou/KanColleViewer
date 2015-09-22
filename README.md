@@ -6,6 +6,7 @@ KCV是一个添加了若干辅助功能的舰娘用浏览器。
 
 本项目基于Clicia 的KCV版本进行本地化。[Clicia 's KanColleViewer](https://github.com/yuyuvn/KanColleViewer)
 似乎好久没更新了，以后客户端我应该不会更新那么勤，因为本身Clicia的魔改版的中文已经比较完善了，我会着重于翻译文件（XML）的更新。
+3.6分支停止更新，重复一遍，停止更新，包括XML翻译文件，停止更新。
 ##### 主要贡献者
 * [杏奈、Mr.WinWin](https://github.com/AnnaKutou) -- 本项目维护者
 * [Clicia](https://github.com/yuyuvn) -- 源项目
