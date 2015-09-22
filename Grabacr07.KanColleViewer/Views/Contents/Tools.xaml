@@ -15,8 +15,8 @@
 			 d:DesignWidth="700"
 			 d:DesignHeight="300"
 			 d:DataContext="{d:DesignInstance vm:ToolsViewModel}">
-
-	<ScrollViewer VerticalScrollBarVisibility="Auto"
+	
+    <ScrollViewer VerticalScrollBarVisibility="Auto"
 				  PanningMode="Both"
 				  MinWidth="{Binding Source={x:Static properties:Settings.Default}, Path=UIContentWidth, Mode=OneTime}">
 		<Grid>
@@ -94,6 +94,6 @@
 
 			<ContentControl Grid.Column="1" Content="{Binding SelectedTool.View}"
 							Margin="8,0,8,8" />
-		</Grid>
-	</ScrollViewer>
+        </Grid>
+    </ScrollViewer>
 </UserControl>

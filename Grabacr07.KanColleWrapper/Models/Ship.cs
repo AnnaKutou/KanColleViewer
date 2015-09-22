@@ -354,7 +354,7 @@ namespace Grabacr07.KanColleWrapper.Models
 		{
 			get { return ConditionTypeHelper.ToConditionType(this.RawData.api_cond); }
 		}
-		
+
 		/// <summary>
 		/// この艦が出撃した海域を識別する整数値を取得します。
 		/// </summary>
@@ -383,7 +383,7 @@ namespace Grabacr07.KanColleWrapper.Models
 
 				if (minDockTime < 1200)
 					return this.RepairDockTime;
-					
+
 				return TimeSpan.FromMinutes((this.HP.Maximum - this.HP.Current) * 20).ToString();
 			}
 		}
@@ -422,7 +422,7 @@ namespace Grabacr07.KanColleWrapper.Models
 		}
 
 		#endregion
-        
+
 		internal Ship(Homeport parent, kcsapi_ship2 rawData)
 			: base(rawData)
 		{

@@ -501,7 +501,7 @@
 						</WrapPanel>
 					</Border>-->
 				</StackPanel>
-			</Expander>
+            </Expander>
 
 			<Expander Grid.Row="1"
 					  DockPanel.Dock="Top"
@@ -899,10 +899,10 @@
 												 Foreground="{DynamicResource ActiveForegroundBrushKey}"/>
 											<Run Text="" />
 											<Run Text="{Binding Ship.AntiSub.Minimum, StringFormat=({0}), Mode=OneWay}" />
-										</TextBlock>
-									</DataTemplate>
-								</GridViewColumn.CellTemplate>
-							</GridViewColumn>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
 
 							<!-- Event only -->
 							<!--<GridViewColumn Width="65">
@@ -935,15 +935,15 @@
 							</GridViewColumn>-->
 
 							<GridViewColumn Width="110">
-								<GridViewColumn.Header>
-									<TextBlock Text="{Binding Resources.ShipCatalog_Equips, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
-								</GridViewColumn.Header>
-								<GridViewColumn.CellTemplate>
-									<DataTemplate DataType="{x:Type contentsVm:ShipViewModel}">
+                                <GridViewColumn.Header>
+                                    <TextBlock Text="{Binding Resources.ShipCatalog_Equips, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate DataType="{x:Type contentsVm:ShipViewModel}">
 										<ItemsControl ItemsSource="{Binding Ship.EquippedSlots}">
-											<ItemsControl.Template>
-												<ControlTemplate TargetType="{x:Type ItemsControl}">
-													<StackPanel IsItemsHost="True"
+                                            <ItemsControl.Template>
+                                                <ControlTemplate TargetType="{x:Type ItemsControl}">
+                                                    <StackPanel IsItemsHost="True"
 																Orientation="Horizontal" />
 												</ControlTemplate>
 											</ItemsControl.Template>
@@ -953,19 +953,19 @@
 															Background="Transparent"
 															Height="20"
 															Padding="0,1">
-														<Border.ToolTip>
-															<StackPanel Orientation="Vertical">
-																<TextBlock>
+                                                        <Border.ToolTip>
+                                                            <StackPanel Orientation="Vertical">
+                                                                <TextBlock>
 																	<Run Text="{Binding Item.Info.Name, Mode=OneWay}" />
 																	<TextBlock Margin="5,0">
-																		<TextBlock.Style>
-																			<Style TargetType="{x:Type TextBlock}">
-																				<Setter Property="Text"
+																			<TextBlock.Style>
+																				<Style TargetType="{x:Type TextBlock}">
+																					<Setter Property="Text"
 																						Value="{Binding Item.LevelText, Mode=OneWay}" />
-																				<Setter Property="Foreground"
+																					<Setter Property="Foreground"
 																						Value="#FF45A9A5" />
-																			</Style>
-																		</TextBlock.Style>
+																				</Style>
+																			</TextBlock.Style>
 																	</TextBlock>
 																	<TextBlock Visibility="{Binding Item.Info.IsNumerable, Converter={StaticResource BooleanToVisibilityConverter}}">
 																		<Run Text="[" />
@@ -976,25 +976,25 @@
 																	</TextBlock>
 																</TextBlock>
 																<TextBlock Text="{Binding Item.Info.AllStats, Mode=OneWay}" />
-															</StackPanel>
-														</Border.ToolTip>
-														<Viewbox>
-															<kcvc:SlotItemIcon Type="{Binding Item.Info.IconType}"
-																			   Margin="0,0,4,0" />
-														</Viewbox>
-													</Border>
-												</DataTemplate>
-											</ItemsControl.ItemTemplate>
-										</ItemsControl>
-									</DataTemplate>
-								</GridViewColumn.CellTemplate>
-							</GridViewColumn>
-						</GridView>
-					</ListView.View>
-				</ListView>
-			</Border>
+                                                            </StackPanel>
+                                                        </Border.ToolTip>
+                                                        <Viewbox>
+                                                            <controls:SlotItemIcon Type="{Binding Item.Info.IconType}"
+																				   Margin="0,0,4,0" />
+                                                        </Viewbox>
+                                                    </Border>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Border>
 
-			<Border Grid.Row="2"
+            <Border Grid.Row="2"
 					Background="{DynamicResource ThemeBrushKey}"
 					BorderBrush="{DynamicResource BorderBrushKey}"
 					BorderThickness="1"
@@ -1007,7 +1007,7 @@
 						   FontSize="16"
 						   Background="{DynamicResource ThemeBrushKey}"
 						   HorizontalAlignment="Center" />
-			</Border>
-		</Grid>
-	</Grid>
+            </Border>
+        </Grid>
+    </Grid>
 </metro:MetroWindow>

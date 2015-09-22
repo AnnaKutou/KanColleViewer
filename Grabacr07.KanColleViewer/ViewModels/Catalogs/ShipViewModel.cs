@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models;
+using Grabacr07.KanColleWrapper.Globalization;
 using Livet;
 using Livet.EventListeners;
-using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {

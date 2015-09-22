@@ -57,7 +57,7 @@
 
 	<Window.Resources>
 		<ResourceDictionary>
-			<kcvv:HasFlagConverter x:Key="HasFlagConverter" />
+			<converters:HasFlagConverter x:Key="HasFlagConverter" />
 
 			<DataTemplate x:Key="ShipLineViewKey"
 						  DataType="{x:Type wrapper:Ship}">
@@ -186,10 +186,10 @@
 									<Run Text="/" />
 									<Run Text="{Binding HP.Maximum, Mode=OneWay}" />
 								</TextBlock>
-								<kcvc:ColorIndicator Height="7"
-													 VerticalAlignment="Bottom"
-													 Margin="1,4,0,2"
-													 LimitedValue="{Binding HP, Mode=OneWay}" />
+								<controls:ColorIndicator Height="7"
+														 VerticalAlignment="Bottom"
+														 Margin="1,4,0,2"
+														 LimitedValue="{Binding HP, Mode=OneWay}" />
 							</StackPanel>
 
 							<TextBlock Grid.Column="3"
@@ -292,10 +292,10 @@
 									<Run Text="{Binding Fuel.Maximum, Mode=OneWay}"
 										 FontSize="10" />
 								</TextBlock>
-								<kcvc:ColorIndicator DockPanel.Dock="Top"
-													 LimitedValue="{Binding Fuel, Mode=OneWay}"
-													 Height="5"
-													 Margin="1,2,0,0" />
+								<controls:ColorIndicator DockPanel.Dock="Top"
+														 LimitedValue="{Binding Fuel, Mode=OneWay}"
+														 Height="5"
+														 Margin="1,2,0,0" />
 								<Border />
 							</DockPanel>
 
@@ -319,10 +319,10 @@
 									<Run Text="{Binding Bull.Maximum, Mode=OneWay}"
 										 FontSize="10" />
 								</TextBlock>
-								<kcvc:ColorIndicator DockPanel.Dock="Top"
-													 LimitedValue="{Binding Bull, Mode=OneWay}"
-													 Height="5"
-													 Margin="1,2,0,0" />
+								<controls:ColorIndicator DockPanel.Dock="Top"
+														 LimitedValue="{Binding Bull, Mode=OneWay}"
+														 Height="5"
+														 Margin="1,2,0,0" />
 								<Border />
 							</DockPanel>
 
@@ -370,10 +370,10 @@
 													</Style>
 												</TextBlock.Style>
 											</TextBlock>
-											<kcvc:SlotItemIcon Grid.Column="1"
-															   Type="{Binding Item.Info.IconType, Mode=OneWay}"
-															   Width="14"
-															   Height="14" />
+											<controls:SlotItemIcon Grid.Column="1"
+																   Type="{Binding Item.Info.IconType, Mode=OneWay}"
+																   Width="14"
+																   Height="14" />
 											<TextBlock Grid.Column="2"
 													   Foreground="{DynamicResource ActiveForegroundBrushKey}"
 													   Style="{DynamicResource DefaultTextStyleKey}"

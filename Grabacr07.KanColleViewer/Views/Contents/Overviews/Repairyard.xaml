@@ -28,13 +28,13 @@
 						Value="4" />
 				<Setter Property="Margin"
 						Value="5,0,5,5" />
-				<Style.Triggers>
-					<DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
-						<Setter Property="Margin" Value="5,0,5,10"/>
-						<Setter Property="Padding" Value="8"/>
-					</DataTrigger>
-				</Style.Triggers>
-			</Style>
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
+                        <Setter Property="Margin" Value="5,0,5,10"/>
+                        <Setter Property="Padding" Value="8"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
 
 			<Style x:Key="JumbButtonStyleKey"
 				   TargetType="{x:Type metro2:CallMethodButton}"
@@ -49,18 +49,18 @@
 						Value="Stretch" />
 				<Setter Property="Margin"
 						Value="5,0,5,5" />
-				<Style.Triggers>
-					<DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
-						<Setter Property="Margin" Value="5,0,5,10"/>
-						<Setter Property="Padding" Value="8"/>
-					</DataTrigger>
-				</Style.Triggers>
-			</Style>
-			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="../../../Themes/Orientation.xaml" />
-			</ResourceDictionary.MergedDictionaries>
-		</ResourceDictionary>
-	</UserControl.Resources>
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Source={x:Static models:Settings.Current}, Path=Orientation.Mode}" Value="Vertical">
+                        <Setter Property="Margin" Value="5,0,5,10"/>
+                        <Setter Property="Padding" Value="8"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../../../Themes/Orientation.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
 
 
 	<metro2:CallMethodButton Style="{StaticResource JumbButtonStyleKey}"
